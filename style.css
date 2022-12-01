@@ -1,0 +1,90 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+body {
+    background: #E5E5E5;
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    width: 375px;
+    height: 92px;
+    position: Absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#toolbar {
+    width: 375px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+h3 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 90px;
+    height: 28px;
+}
+#menu {
+    height: 12px;
+    width: 18px;
+    left: 3px;
+    top: 6px;
+    border-radius: 0px;
+}
+.line {
+    height: 0px;
+    width: 16px;
+    left: 4px;
+    top: 17px;
+    border-radius: 0px;
+}
+#headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 24px;
+    width: 375px;
+    height: 726px;
+}
+#text-container1 {
+    width: 327px;
+    height: 192px;
+    top: 64px;
+}
+h2 {
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+#text2 {
+    color: #36B37E;
+}
+#text-container2 {
+    width: 327px;
+    height: 164px;
+    text-align: center;
+}
+#text3 {
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+}
+#social-media {
+display: flex;
+justify-content: space-between;
+height: 20px;
+width: 170px;
+top: 536px;
+}
+}
