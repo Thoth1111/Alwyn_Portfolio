@@ -1,7 +1,7 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   body {
     background: #e5e5e5;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
   }
 
   .toolbar {

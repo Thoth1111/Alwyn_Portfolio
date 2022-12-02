@@ -5,7 +5,6 @@
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
 
 </div>
 
@@ -138,8 +137,8 @@ You can deploy this project using:
 
 👤 **Alwyn Androvelle**
 
-- GitHub: [@githubhandle](https://github.com/thoth1111)
-- Twitter: [@twitterhandle](https://twitter.com/androvelle)
+- GitHub: [@thoth1111](https://github.com/thoth1111)
+- Twitter: [@ndrovelle](https://twitter.com/androvelle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 👤 **Author2**
