@@ -1,71 +1,63 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 body {
     background: #E5E5E5;
-    background-image: url(background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    font-family: 'Inter';
 }
-header {
-    width: 375px;
-    height: 92px;
-    position: Absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-#toolbar {
-    width: 375px;
-    height: 28px;
+.toolbar {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    height: 92px;
 }
-h3 {
-    font-family: Inter;
+#logo-text {
+    color:#28352f;
+    width: 90px;
+    height: 28px;
+    margin: 0px 0px 0px 12px;
+    padding: 0px;
+    bottom: 0px;
+    left: 12px;
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
     letter-spacing: 0em;
     text-align: center;
-    width: 90px;
-    height: 28px;
 }
-#menu {
-    height: 12px;
+.menu {
+    margin: 0px 12px 10px 0px;
     width: 18px;
-    left: 3px;
-    top: 6px;
-    border-radius: 0px;
+    height: 12px;
 }
-.line {
-    height: 0px;
-    width: 16px;
-    left: 4px;
-    top: 17px;
-    border-radius: 0px;
+.menu div {
+    border: 2px solid #28352f;
+    height:0px;
+    margin: 2px 0px;
+    border-radius: 25%;
 }
-#headline {
+.page {
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 64px 24px;
-    width: 375px;
+    justify-content: space-around;
+    flex: 1 1 auto;
     height: 726px;
 }
-#text-container1 {
+#text-container {
     width: 327px;
-    height: 192px;
-    top: 64px;
+    height: fit-content;
+    text-align: center;
 }
 h2 {
-    font-family: 'Inter';
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
     letter-spacing: 0em;
     text-align: center;
 }
-#text2 {
+.page #green {
     color: #36B37E;
 }
 #text-container2 {
@@ -74,17 +66,16 @@ h2 {
     text-align: center;
 }
 #text3 {
-    font-family: 'Inter';
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
     letter-spacing: 0em;
 }
-#social-media {
-display: flex;
-justify-content: space-between;
-height: 20px;
-width: 170px;
-top: 536px;
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    width: 170px;
+    top: 536px;
 }
 }
