@@ -26,13 +26,13 @@
     text-align: center;
   }
 
-  .menu {
+  #menu {
     margin: 0 12px 10px 0;
     width: 18px;
     height: 12px;
   }
 
-  .menu div {
+  #menu div {
     border: 2px solid #28352f;
     height: 0;
     margin: 2px 0;
