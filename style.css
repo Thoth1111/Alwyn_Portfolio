@@ -93,7 +93,7 @@
   .mid-section {
     display: grid;
     grid-template-columns: 327px;
-    grid-template-rows: 120px 474px 333px 1106px 900px;
+    grid-template-rows: auto auto auto auto auto;
     grid-gap: 15px;
     justify-content: center;
   } 
@@ -166,7 +166,7 @@
     letter-spacing: 0.03em;
     text-align: left;
   }
-  .list-buttons {
+  .button-1 {
     color: white;
     height: 24px;
     width: 98px;
@@ -177,5 +177,29 @@
     border-radius: 4px;
     background: #36b37f;
   }
-  
+  .about-me {
+    background-image: url(about-me-1.svg), url(about-me-2.svg);
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-me h2 {
+    margin: 0px;
+  }
+  #bio {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .button-2 {
+    color: white;
+    width: 135px;
+    height: 24px;
+    margin-left: 103px;
+    margin-bottom: 10px;
+    background: #36b37f;
+  }
 }
