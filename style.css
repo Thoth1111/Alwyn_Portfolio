@@ -92,11 +92,27 @@
   .grid-container {
     display: grid;
     grid-template-columns: 327px;
-    grid-template-rows: 97px 474px 333px 1106px 900px;
-    grid-gap: 10px;
+    grid-template-rows: 120px 474px 333px 1106px 900px;
+    grid-gap: 15px;
     justify-content: center;
   }
-  .item {
+  .grid-container div {
     border: 2px solid black;
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+  .intro h2 {
+    margin: 0px;
+  }
+  #indicator {
+    height: 4px;
+    width: 48px;
+    top: 121px;
+    border-radius: 24px;
+    background-color: #36b37e;
   }
 }
