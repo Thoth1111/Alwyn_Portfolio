@@ -1,6 +1,6 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   body {
-    background: #ffffff;
+    background: #fff;
     font-family: 'Inter', sans-serif;
   }
 
@@ -96,7 +96,7 @@
     grid-template-rows: auto auto auto auto auto;
     grid-gap: 15px;
     justify-content: center;
-  } 
+  }
 
   .intro {
     display: flex;
@@ -106,7 +106,7 @@
   }
 
   .intro h2 {
-    margin: 0px;
+    margin: 0;
   }
 
   #indicator {
@@ -133,34 +133,36 @@
   }
 
   .entries img {
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 8px 8px 0 0;
   }
+
   .description {
-    background: #ffffff;
+    background: #fff;
     align-items: center;
-    border-radius: 0px 0px 8px 8px;
+    border-radius: 0 0 8px 8px;
   }
 
   .description h4 {
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
-    padding: 0px;
-    margin:10px;
+    padding: 0;
+    margin: 10px;
   }
 
   .description ul {
-    margin: 0px, 11px;
+    margin: 0, 11px;
     display: flex;
     flex-grow: 1;
     justify-items: space-between;
   }
+
   .list1 li {
     background: #ebf0ee;
     border-radius: 4px;
-    margin: 0px 5px 0px 5px;
+    margin: 0 5px 0 5px;
     padding: 5px;
     font-size: 12px;
     font-weight: 600;
@@ -168,113 +170,128 @@
     letter-spacing: 0.03em;
     text-align: left;
   }
-  }
-  .button-1 {
-    color: white;
-    height: auto;
-    width: 98px;
-    left: 12px;
-    top: 12px;
-    margin-left: 103px;
-    margin-bottom: 10px;
-    border-radius: 4px;
-    background: #36b37f;
-  }
-  .about-me {
-    background-image: url(about-me-1.svg), url(about-me-2.svg);
-    background-position: right top, left bottom;
-    background-repeat: no-repeat, no-repeat;
-    display: flex;
-    flex-direction: column;
-  }
-  .about-me h2 {
-    margin: 0px;
-  }
-  #bio {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    letter-spacing: 0em;
-    text-align: center;
-  }
-  .button-2 {
-    color: white;
-    width: 135px;
-    height: 24px;
-    margin-left: 103px;
-    margin-bottom: 10px;
-    background: #36b37f;
-  }
-  .skills {
-    display: grid;
-    grid-template-columns: 327px;
-    grid-template-rows: 352px 352px 352px;
-    grid-gap: 24px;
-    align-items: center;
-  }
-  .skill-entries {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #d0d9d4;
-    border-radius: 8px;
-    background-color: #ebf0ee;
-  }
-  .icons {
-    margin-top: 24px;
-    height: 80px;
-    width: 80px;
-    left: 124px;
-    top: 24px;
-    border-radius: 0px;
-  }
-  .title {
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 32px;
-    letter-spacing: 0em;
-    text-align: center;
-  }
-  .skill-entries ul {
-    margin: 0px, 11px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-items: center;
-    align-content: center;
-  }
-  .list2 li{
-    color:#36b37e;
-    background: #ffffff;
-    border-radius: 8px;
-    margin: 5px;
-    padding: 10px;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-align: center;
-  }
-  .form {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto;
-    justify-items: center;
-    grid-gap: 24px;
-  }
-  .form-entries {
-    display: grid;
-    grid-template-columns: 340px;
-    grid-template-rows: auto auto;
-    grid-gap: 24px;
-  }
-  #submit {
-    padding: 12px;
-    text-align: justify;
-  }
-  #emai {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    letter-spacing: 0em;
-    text-align: center;
-  }
+}
+
+.button-1 {
+  color: white;
+  height: auto;
+  width: 98px;
+  left: 12px;
+  top: 12px;
+  margin-left: 103px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background: #36b37f;
+}
+
+.about-me {
+  background-image: url(about-me-1.svg), url(about-me-2.svg);
+  background-position: right top, left bottom;
+  background-repeat: no-repeat, no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me h2 {
+  margin: 0;
+}
+
+#bio {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.button-2 {
+  color: white;
+  width: 135px;
+  height: 24px;
+  margin-left: 103px;
+  margin-bottom: 10px;
+  background: #36b37f;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 327px;
+  grid-template-rows: 352px 352px 352px;
+  grid-gap: 24px;
+  align-items: center;
+}
+
+.skill-entries {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  background-color: #ebf0ee;
+}
+
+.icons {
+  margin-top: 24px;
+  height: 80px;
+  width: 80px;
+  left: 124px;
+  top: 24px;
+  border-radius: 0;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.skill-entries ul {
+  margin: 0, 11px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-content: center;
+}
+
+.list2 li {
+  color: #36b37e;
+  background: #fff;
+  border-radius: 8px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  justify-items: center;
+  grid-gap: 24px;
+}
+
+.form-entries {
+  display: grid;
+  grid-template-columns: 340px;
+  grid-template-rows: auto auto;
+  grid-gap: 24px;
+}
+
+#submit {
+  padding: 12px;
+  text-align: justify;
+}
+
+#emai {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: center;
+}
