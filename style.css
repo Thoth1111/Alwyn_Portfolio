@@ -89,25 +89,26 @@
     width: 170px;
     top: 536px;
   }
-  .grid-container {
+
+  .mid-section {
     display: grid;
     grid-template-columns: 327px;
     grid-template-rows: 120px 474px 333px 1106px 900px;
     grid-gap: 15px;
     justify-content: center;
-  }
-  .grid-container div {
-    border: 2px solid black;
-  }
+  } 
+
   .intro {
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
   }
+
   .intro h2 {
     margin: 0px;
   }
+
   #indicator {
     height: 4px;
     width: 48px;
@@ -115,4 +116,66 @@
     border-radius: 24px;
     background-color: #36b37e;
   }
+
+  .work-section {
+    display: grid;
+    grid-template-columns: 327px;
+    grid-template-rows: 474px 474px 474px;
+    grid-gap: 24px;
+    align-items: center;
+  }
+
+  .entries {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d0d9d4;
+    border-radius: 8px;
+  }
+
+  .entries img {
+    border-radius: 8px 8px 0px 0px;
+  }
+  .description {
+    align-items: center;
+  }
+
+  .description h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0px;
+    margin:10px;
+  }
+
+  .description ul {
+    margin: 0px, 11px;
+    display: flex;
+    flex-grow: 1;
+    justify-items: space-between;
+  }
+  .list li {
+    background: #ebf0ee;
+    border-radius: 4px;
+    margin: 0px 5px 0px 5px;
+    padding: 2px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+  .list-buttons {
+    color: white;
+    height: 24px;
+    width: 98px;
+    left: 12px;
+    top: 12px;
+    margin-left: 103px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background: #36b37f;
+  }
+  
 }
