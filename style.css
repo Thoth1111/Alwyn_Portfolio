@@ -89,4 +89,14 @@
     width: 170px;
     top: 536px;
   }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 327px;
+    grid-template-rows: 97px 474px 333px 1106px 900px;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+  .item {
+    border: 2px solid black;
+  }
 }
