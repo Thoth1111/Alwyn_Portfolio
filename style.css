@@ -2,6 +2,7 @@
   body {
     background: #fff;
     font-family: 'Inter', sans-serif;
+    font-style: normal;
   }
 
   .toolbar {
@@ -58,6 +59,7 @@
   }
 
   h2 {
+    color: #172b4d;
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
@@ -106,10 +108,17 @@
   }
 
   .intro h2 {
+    color: #172b4d;
     margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
   }
 
   #indicator {
+    margin-top: 14px;
     height: 4px;
     width: 48px;
     top: 121px;
@@ -143,6 +152,7 @@
   }
 
   .description h4 {
+    color:#3a4142;
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;
@@ -153,7 +163,7 @@
   }
 
   .description ul {
-    margin: 0, 11px;
+    margin: 16px 10px 29px -20px;
     display: flex;
     flex-grow: 1;
     justify-items: space-between;
@@ -162,102 +172,99 @@
   .list1 li {
     background: #ebf0ee;
     border-radius: 4px;
-    margin: 0 5px 0 5px;
-    padding: 5px;
+    margin: auto;
+    padding: 8px;
+    color:#3a4142;
+    font-style: normal;
     font-size: 12px;
     font-weight: 600;
     line-height: 16px;
     letter-spacing: 0.03em;
-    text-align: left;
+    text-align: center;
   }
-}
-
-.button-1 {
-  color: white;
-  height: auto;
-  width: 98px;
-  left: 12px;
-  top: 12px;
-  margin-left: 103px;
-  margin-bottom: 10px;
-  border-radius: 4px;
-  background: #36b37f;
-}
-
-.about-me {
+  .button-1 {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    gap: 10px;
+    width: 122px;
+    height: 48px;
+    border-radius: 4px;
+    background: #36b37f;
+    margin: auto;
+    margin-bottom: 24px;
+  }
+  .about-me {
   background-image: url(about-me-1.svg), url(about-me-2.svg);
   background-position: right top, left bottom;
   background-repeat: no-repeat, no-repeat;
   display: flex;
   flex-direction: column;
-}
-
-.about-me h2 {
+  }
+ .about-me h2 {
+  color: #172b4d;
   margin: 0;
-}
+  }
 
-#bio {
+ #bio {
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0;
   text-align: center;
-}
+  }
 
-.button-2 {
-  color: white;
-  width: 135px;
-  height: 24px;
-  margin-left: 103px;
-  margin-bottom: 10px;
-  background: #36b37f;
-}
-
-.skills {
+ .skills {
   display: grid;
   grid-template-columns: 327px;
-  grid-template-rows: 352px 352px 352px;
+  grid-template-rows: auto auto auto;
   grid-gap: 24px;
   align-items: center;
-}
+  }
 
-.skill-entries {
+ .skill-entries {
   display: flex;
   flex-direction: column;
   align-items: center;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   background-color: #ebf0ee;
-}
+  }
 
-.icons {
+  .icons {
   margin-top: 24px;
   height: 80px;
   width: 80px;
   left: 124px;
   top: 24px;
   border-radius: 0;
-}
+  }
 
-.title {
+ .title {
+  color:#344563;
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
   letter-spacing: 0;
   text-align: center;
-}
+  }
 
-.skill-entries ul {
-  margin: 0, 11px;
+ .skill-entries ul {
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-items: center;
-  align-content: center;
-}
-
-.list2 li {
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 2px;
+  }
+ 
+  .skill-entries li {
   color: #36b37e;
-  background: #fff;
+  background: #fff;  
   border-radius: 8px;
   margin: 5px;
   padding: 10px;
@@ -266,32 +273,72 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: center;
-}
+  }
 
-.form {
+  #skill1 {
+    width: 68px;
+  }
+  #skill2 {
+    width: 40px;
+  }
+  #skill3 {
+    width: 40px;
+  }
+  #skill4 {
+    width:40px; 
+  }
+  #skill5 {
+    width: 70px; 
+  }
+  #skill6 {
+    width: 89px;
+  }
+  #skill7 {
+    width: 42px;
+  }
+  #skill8 {
+    width: 70px;
+  }
+  #skill9 {
+    width: 70px;
+  }
+  #skill10 {
+    width: 60px;
+  }
+  #skill11 {
+    width: 45px;
+  }
+  #skill12 {
+    width: 60px;
+  }
+  #skill13 {
+    width: 45px;
+  }
+  #skill14 {
+    width: 60px;
+  }
+
+ .form {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
   justify-items: center;
   grid-gap: 24px;
-}
+ }
 
-.form-entries {
+ .form-entries {
   display: grid;
   grid-template-columns: 340px;
   grid-template-rows: auto auto;
   grid-gap: 24px;
-}
+ }
 
-#submit {
-  padding: 12px;
-  text-align: justify;
-}
-
-#emai {
+#email {
+  color: #42526e;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0;
   text-align: center;
+}
 }
