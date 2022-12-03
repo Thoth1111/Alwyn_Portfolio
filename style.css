@@ -1,6 +1,6 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   body {
-    background: #e5e5e5;
+    background: #ffffff;
     font-family: 'Inter', sans-serif;
   }
 
@@ -136,7 +136,9 @@
     border-radius: 8px 8px 0px 0px;
   }
   .description {
+    background: #ffffff;
     align-items: center;
+    border-radius: 0px 0px 8px 8px;
   }
 
   .description h4 {
@@ -155,16 +157,17 @@
     flex-grow: 1;
     justify-items: space-between;
   }
-  .list li {
+  .list1 li {
     background: #ebf0ee;
     border-radius: 4px;
     margin: 0px 5px 0px 5px;
-    padding: 2px;
+    padding: 5px;
     font-size: 12px;
     font-weight: 600;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-align: left;
+  }
   }
   .button-1 {
     color: white;
@@ -201,5 +204,54 @@
     margin-left: 103px;
     margin-bottom: 10px;
     background: #36b37f;
+  }
+  .skills {
+    display: grid;
+    grid-template-columns: 327px;
+    grid-template-rows: 352px 352px 352px;
+    grid-gap: 24px;
+    align-items: center;
+  }
+  .skill-entries {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #d0d9d4;
+    border-radius: 8px;
+    background-color: #ebf0ee;
+  }
+  .icons {
+    margin-top: 24px;
+    height: 80px;
+    width: 80px;
+    left: 124px;
+    top: 24px;
+    border-radius: 0px;
+  }
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .skill-entries ul {
+    margin: 0px, 11px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-content: center;
+  }
+  .list2 li{
+    color:#36b37e;
+    background: #ffffff;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
   }
 }
