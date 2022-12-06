@@ -355,6 +355,22 @@
     gap: 24px;
   }
 
+  .fill-area {
+    padding: 13px 16px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+  }
+
+  textarea {
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+  }
+
   #email {
     color: #42526e;
     font-size: 20px;
