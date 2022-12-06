@@ -199,6 +199,12 @@
     margin-bottom: 24px;
   }
 
+  .button-1:hover {
+    box-shadow: 0 8px 16px;
+    border-color: rgba(255, 97, 99, 0.24);
+    border-radius: 4px;
+  }
+
   .about-me {
     background-image: url(about-me-1.svg), url(about-me-2.svg);
     background-position: right top, left bottom;
@@ -270,7 +276,7 @@
     background: #fff;
     border-radius: 8px;
     margin: 5px;
-    padding: 10px;
+    padding: 15px;
     font-size: 12px;
     font-weight: 600;
     line-height: 16px;
@@ -334,7 +340,7 @@
     width: 60px;
   }
 
-  .form {
+  .form-section {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
@@ -342,11 +348,27 @@
     grid-gap: 24px;
   }
 
-  .form-entries {
-    display: grid;
-    grid-template-columns: 340px;
-    grid-template-rows: auto auto;
-    grid-gap: 24px;
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    gap: 24px;
+  }
+
+  .fill-area {
+    padding: 13px 16px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+  }
+
+  textarea {
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
   }
 
   #email {
