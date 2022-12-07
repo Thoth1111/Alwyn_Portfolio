@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
 </head>
 <body>
+    <header>
+        <ul id="navbar" type="none">
+            <li>Portfolio</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </header>
     <section class="toolbar">
         <p id="logo-text">Welcome</p>
         <div class="buttons" id="menu">
@@ -129,13 +136,13 @@
            </div> 
         </div>
 
-        <div class="form-section">
+        <div class="form">
             <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-            <form action="https://formspree.io/f/mrgdnqrz" method="post">
-                <input type="text" class="fill-area" name="full-name" required maxlength="25" placeholder="Full Name">
-                <input type="email" class="fill-area" name="email" required placeholder="Email Address">
-                <textarea rows="8" name="message" required maxlength="500" placeholder="Enter text here"></textarea>
-                <input type="submit" class="button-1" id="submit" value="Get in touch">
+            <form class="form-entries">
+                <input type="text" class="fill-area" name="fname" placeholder="Full Name">
+                <input type="text" class="fill-area" name="email" placeholder="Email Address">
+                <textarea rows="8" placeholder="Enter text here"></textarea>
+                <input class="button-1" id="submit" type="submit" value="Get in touch">
             </form>
             <div class="social-media">
                 <input type="image"  src="twitter.png">

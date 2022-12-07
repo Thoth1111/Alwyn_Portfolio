@@ -1,8 +1,12 @@
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 600px) {
   body {
     background: #fff;
     font-family: 'Inter', sans-serif;
     font-style: normal;
+  }
+
+  header {
+    display: none;
   }
 
   .toolbar {
@@ -20,6 +24,7 @@
     padding: 0;
     bottom: 0;
     left: 12px;
+    font-family: Inter;
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
@@ -60,6 +65,7 @@
 
   h2 {
     color: #172b4d;
+    font-family: Inter;
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
@@ -78,6 +84,7 @@
   }
 
   #text3 {
+    font-family: Inter;
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
@@ -110,6 +117,7 @@
   .intro h2 {
     color: #172b4d;
     margin: 0;
+    font-family: Inter;
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
@@ -153,6 +161,7 @@
 
   .description h4 {
     color: #3a4142;
+    font-family: Inter;
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;
@@ -175,6 +184,7 @@
     margin: auto;
     padding: 8px;
     color: #3a4142;
+    font-family: Inter;
     font-style: normal;
     font-size: 12px;
     font-weight: 600;
@@ -219,6 +229,7 @@
   }
 
   #bio {
+    font-family: Inter;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
@@ -254,6 +265,7 @@
 
   .title {
     color: #344563;
+    font-family: Inter;
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;
@@ -277,6 +289,7 @@
     border-radius: 8px;
     margin: 5px;
     padding: 15px;
+    font-family: Inter;
     font-size: 12px;
     font-weight: 600;
     line-height: 16px;
@@ -356,6 +369,7 @@
   }
 
   .fill-area {
+    font-family: Inter;
     padding: 13px 16px;
     font-size: 15px;
     font-weight: 400;
@@ -364,6 +378,7 @@
   }
 
   textarea {
+    font-family: Inter;
     padding: 12px;
     font-size: 15px;
     font-weight: 400;
@@ -373,10 +388,47 @@
 
   #email {
     color: #42526e;
+    font-family: Inter;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0;
     text-align: center;
+  }
+}
+
+/*Desktop Version*/
+@media only screen and (min-width: 768px) {
+  
+  /*Header and Navigation*/
+  header {
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    top: 0px;
+  }
+
+  #navbar {
+    display: flex;
+    gap: 8px;
+    width: 255px;
+    height: 40px;
+    margin-left: 500px;
+  }
+
+  #navbar > li {
+    color: #344563;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    gap: 10px;
+    padding: 10px 12px;
+  }
+
+  .toolbar {
+    display: none;
   }
 }
