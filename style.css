@@ -363,17 +363,22 @@
     width: 60px;
   }
 
-  .form-section {
+  .form {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto;
     justify-items: center;
     grid-gap: 24px;
   }
 
-  form {
+  #lname {
+    display: none;
+  }
+
+  .form-entries {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 340px;
     gap: 24px;
   }
@@ -396,6 +401,10 @@
     letter-spacing: 0;
   }
 
+  #footer-icons {
+    margin: 0 15% 10px 25%;
+  }
+
   #email {
     color: #42526e;
     font-family: Inter;
@@ -404,6 +413,7 @@
     line-height: 32px;
     letter-spacing: 0;
     text-align: center;
+    margin-top: -10px;
   }
 }
 
@@ -450,7 +460,7 @@
 
   .landing-page {
     background-image: url(Header-llustration-desktop.svg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 65%;
@@ -514,7 +524,7 @@
   .mid-section {
     display: grid;
     grid-template-columns: 90%;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
     grid-gap: 24px;
     height: fit-content;
     justify-content: center;
@@ -621,7 +631,9 @@
 
   .about-me {
     margin: 88px 0 26px 0;
-  
+    background-image: url(illustration-about-me-desktop.svg), url(illustration-about-me-2-desktop.svg);
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat; 
   }
 
   .about-me > h2 {
@@ -761,5 +773,63 @@
     width: 60px;
   }
 
-  
+  .form {
+    border: 1px solid black;
+    display: flex;
+    margin-top: 120px;
+    height: fit-content;
+  }
+
+  .form > h2 {
+    border: 1px solid black;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 463px;
+    height: 256px;
+    margin: 60px 0 40px 75px;
+  }
+
+  .form-entries {
+    border: 1px solid black;
+     
+    width: 684px;
+    margin-right: 0px;
+  }
+
+  .fill-area {
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 4px;
+    border: 1px solid #d0d9d44;
+  }
+
+  #fname, #lname {
+    height: 48px;
+    width: 330px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+
+  }
+  #address {
+    height: 48px;
+    width: 684px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+  }
+  #message {
+  }
+  #submit {
+  }
+
+
+  #email {
+    display: none;
+  }
 }
