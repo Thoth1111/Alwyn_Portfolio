@@ -74,6 +74,21 @@
     line-height: 52px;
     letter-spacing: 0;
     text-align: center;
+    animation-name: entry;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    transition-timing-function: cubic-bezier(.77,0,.18,1);
+  }
+
+  @keyframes entry {
+    from {
+      width: 300%;
+      margin-right: 100%;
+    }
+    to {
+      width: 100%;
+      margin-right: 0px;
+    }
   }
 
   .page #green {
@@ -217,12 +232,16 @@
     background: #36b37f;
     margin: auto;
     margin-bottom: 24px;
+    transition: background-color 0.5s, width 0.5s, color 0.5s;
   }
 
   .button-1:hover {
     box-shadow: 0 8px 16px;
     border-color: rgba(255, 97, 99, 0.24);
+    background-color: aqua;
+    color: #172b4d;
     border-radius: 4px;
+    width: 128px;
   }
 
   .about-me {
@@ -401,8 +420,15 @@
     letter-spacing: 0;
   }
 
+  #footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%
+  }
+
   #footer-icons {
-    margin: 0 15% 10px 25%;
+    margin: 0 15% 10px 30%;
   }
 
   #email {
@@ -413,7 +439,7 @@
     line-height: 32px;
     letter-spacing: 0;
     text-align: center;
-    margin-top: -10px;
+    margin-top: 10px;
   }
 }
 
@@ -487,6 +513,21 @@
     text-align: center;
     font-style: bold;
     margin: 0px;
+    animation-name: entry;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    transition-timing-function: cubic-bezier(.77,0,.18,1);
+  }
+
+  @keyframes entry {
+    from {
+      width: 300%;
+      margin-right: 100%;
+    }
+    to {
+      width: 100%;
+      margin-right: 0px;
+    }
   }
 
   #green {
@@ -621,12 +662,16 @@
     background: #36b37f;
     margin: auto;
     margin-bottom: 24px;
+    transition: background-color 0.5s, width 0.5s, color 0.5s;
   }
 
   .button-1:hover {
     box-shadow: 0 8px 16px;
     border-color: rgba(255, 97, 99, 0.24);
+    background-color: aqua;
+    color: #172b4d;
     border-radius: 4px;
+    width: 128px;
   }
 
   .about-me {
@@ -776,8 +821,17 @@
   .form {
     border: 1px solid black;
     display: flex;
-    margin-top: 120px;
+    flex-wrap: wrap;
+    margin-top: 100px;
     height: fit-content;
+    justify-content: space-between;
+  }
+
+  #form-text-container {
+    border: 1px solid black;
+    width: 463px;
+    height: 256px;
+    margin-top: 80px;
   }
 
   .form > h2 {
@@ -789,23 +843,26 @@
     line-height: 52px;
     letter-spacing: 0em;
     text-align: left;
-    width: 463px;
-    height: 256px;
-    margin: 60px 0 40px 75px;
+  }
+
+  #form-container {
+    height: 330px;
+    width: 684px;
+    left: 587px;
+    border-radius: 0px;
+
   }
 
   .form-entries {
-    border: 1px solid black;
-    display: none;     
+    border: 1px solid black;   
     width: 684px;
     margin-right: 0px;
   }
 
   .fill-area {
     box-sizing: border-box;
-    position: absolute;
     border-radius: 4px;
-    border: 1px solid #d0d9d44;
+    border: 1px solid #d0d9d4;
   }
 
   #fname, #lname {
@@ -824,10 +881,16 @@
     border-radius: 4px;
   }
   #message {
+    height: 114px;
+    width: 684px;
+    left: 0px;
   }
   #submit {
   }
 
+  #footer-icons {
+
+  }
 
   #email {
     display: none;
