@@ -796,7 +796,7 @@
 
   .form-entries {
     border: 1px solid black;
-     
+    display: none;     
     width: 684px;
     margin-right: 0px;
   }
