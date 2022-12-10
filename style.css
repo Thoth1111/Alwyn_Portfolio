@@ -448,7 +448,7 @@
   
   /*Header and Navigation*/
   body {
-    height: 3774px;
+    height: auto;
   }
 
   header {
@@ -819,7 +819,10 @@
   }
 
   .form {
-    border: 1px solid black;
+    background-image: url(illustration-1-contact-form-desktop.svg),url(illustration-2-contact-form-desktop.svg),url(contact\ form-illustratoin-3-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom, left 210px bottom 90px, right bottom;
+    padding-bottom: 250px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 100px;
@@ -828,14 +831,13 @@
   }
 
   #form-text-container {
-    border: 1px solid black;
-    width: 463px;
+    width: 484px;
     height: 256px;
     margin-top: 80px;
+    margin-left: 70px;
   }
 
-  .form > h2 {
-    border: 1px solid black;
+  #form-text-container > h2 {
     font-family: Inter;
     font-style: normal;
     font-size: 30px;
@@ -843,18 +845,18 @@
     line-height: 52px;
     letter-spacing: 0em;
     text-align: left;
+    padding-left: 0px; 
+    margin-top: 0px;
   }
 
   #form-container {
     height: 330px;
-    width: 684px;
-    left: 587px;
+    width: 670px;
     border-radius: 0px;
-
+    margin-right: 80px;
   }
 
-  .form-entries {
-    border: 1px solid black;   
+  .form-entries {  
     width: 684px;
     margin-right: 0px;
   }
@@ -868,29 +870,44 @@
   #fname, #lname {
     height: 48px;
     width: 330px;
+    gap: 12px;
     left: 0px;
     top: 0px;
     border-radius: 4px;
-
+    margin-bottom: 12px;
   }
+
+  #fname {
+    margin-right: 20px;
+  }
+
   #address {
     height: 48px;
     width: 684px;
     left: 0px;
     top: 0px;
     border-radius: 4px;
+    margin: 12px 100px 12px 0;
   }
   #message {
     height: 114px;
-    width: 684px;
+    width: 676px;
     left: 0px;
+    margin: 12px 0 12px 0;
   }
+
   #submit {
+    margin-top: 12px;
+    margin-left: 0px;
+  }
+
+  #footer > hr {
+    margin-top: ;
   }
 
   #footer-icons {
-
-  }
+    margin-top: 20px;
+    }
 
   #email {
     display: none;
