@@ -1,4 +1,4 @@
-/*Mobile Version*/
+/* Mobile Version */
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   body {
     background: #fff;
@@ -6,7 +6,7 @@
     font-style: normal;
   }
 
-  /*Landing Page*/
+  /* Landing Page */
 
   header {
     display: none;
@@ -27,7 +27,7 @@
     padding: 0;
     bottom: 0;
     left: 12px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
@@ -68,7 +68,7 @@
 
   h2 {
     color: #172b4d;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
@@ -77,7 +77,7 @@
     animation-name: entry;
     animation-duration: 2s;
     animation-iteration-count: 1;
-    transition-timing-function: cubic-bezier(.77,0,.18,1);
+    transition-timing-function: cubic-bezier(0.77, 0, 0.18, 1);
   }
 
   @keyframes entry {
@@ -85,9 +85,10 @@
       width: 300%;
       margin-right: 100%;
     }
+
     to {
       width: 100%;
-      margin-right: 0px;
+      margin-right: 0;
     }
   }
 
@@ -102,11 +103,11 @@
   }
 
   #text3 {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
   }
 
@@ -120,8 +121,7 @@
 
   #scroll {
     text-align: center;
-    margin: 24px 0px 24px 0px;
-    
+    margin: 24px 0 24px 0;
   }
 
   .mid-section {
@@ -142,7 +142,7 @@
   .intro h2 {
     color: #172b4d;
     margin: 0;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
@@ -159,10 +159,12 @@
     background-color: #36b37e;
   }
 
+  /* Work-Section */
+
   .work-section {
     display: grid;
     grid-template-columns: 327px;
-    grid-template-rows: 474px 474px 474px 474px 474px 474px ;
+    grid-template-rows: 474px 474px 474px 474px 474px 474px;
     grid-gap: 24px;
     align-items: center;
   }
@@ -186,7 +188,7 @@
 
   .description h4 {
     color: #3a4142;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;
@@ -209,7 +211,7 @@
     margin: auto;
     padding: 8px;
     color: #3a4142;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-size: 12px;
     font-weight: 600;
@@ -244,6 +246,8 @@
     width: 128px;
   }
 
+  /* About Me */
+
   .about-me {
     background-image: url(about-me-1.svg), url(about-me-2.svg);
     background-position: right top, left bottom;
@@ -258,13 +262,15 @@
   }
 
   #bio {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0;
     text-align: center;
   }
+
+  /* Skills Section */
 
   .skills {
     display: grid;
@@ -294,7 +300,7 @@
 
   .title {
     color: #344563;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;
@@ -318,7 +324,7 @@
     border-radius: 8px;
     margin: 5px;
     padding: 15px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 600;
     line-height: 16px;
@@ -382,6 +388,8 @@
     width: 60px;
   }
 
+  /* Form Section */
+
   .form {
     display: grid;
     grid-template-columns: auto;
@@ -403,7 +411,7 @@
   }
 
   .fill-area {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     padding: 13px 16px;
     font-size: 15px;
     font-weight: 400;
@@ -412,7 +420,7 @@
   }
 
   textarea {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     padding: 12px;
     font-size: 15px;
     font-weight: 400;
@@ -420,11 +428,17 @@
     letter-spacing: 0;
   }
 
+  /* Footer Section */
+
   #footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%
+    width: 100%;
+  }
+
+  #footer > hr {
+    display: none;
   }
 
   #footer-icons {
@@ -433,7 +447,7 @@
 
   #email {
     color: #42526e;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
@@ -443,10 +457,10 @@
   }
 }
 
-/*Desktop Version*/
+/* Desktop Version */
 @media only screen and (min-width: 768px) {
-  
-  /*Header and Navigation*/
+  /* Landing Page */
+
   body {
     height: auto;
   }
@@ -455,7 +469,7 @@
     position: absolute;
     width: 100%;
     height: 72px;
-    top: 0px;
+    top: 0;
     align-items: center;
   }
 
@@ -468,13 +482,14 @@
     margin-right: 100px;
   }
 
-  #navbar > li {
+  .nav-icons {
     color: #344563;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
     font-size: 15px;
     font-weight: 600;
     line-height: 20px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
     gap: 10px;
     padding: 10px 12px;
@@ -493,7 +508,7 @@
     grid-template-rows: auto auto auto auto;
     grid-gap: 24px;
     justify-content: center;
-    top: 0px;
+    top: 0;
     height: 920px;
   }
 
@@ -502,21 +517,42 @@
     margin-top: 210px;
   }
 
+  .about-me > h2 {
+    color: #172b4d;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .intro > h2 {
+    color: #172b4d;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0;
+    margin-bottom: 30px;
+  }
+
   #text-container > h2 {
     color: #172b4d;
-    margin-top: 150px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-weight: 800;
     line-height: 60px;
     letter-spacing: 0.3700000047683716px;
     text-align: center;
     font-style: bold;
-    margin: 0px;
+    margin: 0;
     animation-name: entry;
     animation-duration: 2s;
     animation-iteration-count: 1;
-    transition-timing-function: cubic-bezier(.77,0,.18,1);
+    transition-timing-function: cubic-bezier(0.77, 0, 0.18, 1);
   }
 
   @keyframes entry {
@@ -524,9 +560,10 @@
       width: 300%;
       margin-right: 100%;
     }
+
     to {
       width: 100%;
-      margin-right: 0px;
+      margin-right: 0;
     }
   }
 
@@ -537,13 +574,14 @@
   #text3 {
     color: #172b4d;
     text-align: center;
-    padding: 0px 40px 0px 15px;
+    padding: 0 40px 0 15px;
     margin-top: -130px;
-    font-family: Inter;
+    margin-right: 30px;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
   }
 
   .social-media {
@@ -562,6 +600,8 @@
     padding-right: 20px;
   }
 
+  /* Work Section */
+
   .mid-section {
     display: grid;
     grid-template-columns: 90%;
@@ -570,23 +610,13 @@
     height: fit-content;
     justify-content: center;
   }
-  
+
   .intro {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
-  .intro > h2 {
-    color: #172b4d;
-    text-align: center;
-    font-family: Inter;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 52px;
-    letter-spacing: 0em;
-    margin-bottom: 30px;
-  }
-
-  .work-section, .skills {
+  .work-section,
+  .skills {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -616,7 +646,7 @@
 
   .description h4 {
     color: #3a4142;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;
@@ -639,7 +669,7 @@
     margin: auto;
     padding: 8px;
     color: #3a4142;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-size: 12px;
     font-weight: 600;
@@ -674,27 +704,20 @@
     width: 128px;
   }
 
+  /* About Me */
+
   .about-me {
     margin: 88px 0 26px 0;
     background-image: url(illustration-about-me-desktop.svg), url(illustration-about-me-2-desktop.svg);
     background-position: right top, left bottom;
-    background-repeat: no-repeat, no-repeat; 
-  }
-
-  .about-me > h2 {
-   color: #172b4d;
-   padding: 0px;
-   font-family: Inter;
-   font-size: 40px;
-   font-weight: 700;
-   line-height: 52px;
-   letter-spacing: 0em;
-   text-align: center;
+    background-repeat: no-repeat, no-repeat;
+    padding-right: 80px;
+    padding-left: 80px;
   }
 
   #bio {
     color: #42526e;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
@@ -703,6 +726,8 @@
     padding: 0 180px 0 180px;
     margin: 24px 0 24px 0;
   }
+
+  /* Skills */
 
   .skills {
     margin-top: -10px;
@@ -730,7 +755,7 @@
 
   .title {
     color: #344563;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;
@@ -754,7 +779,7 @@
     border-radius: 8px;
     margin: 5px;
     padding: 15px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 600;
     line-height: 16px;
@@ -818,8 +843,10 @@
     width: 60px;
   }
 
+  /* Form Section */
+
   .form {
-    background-image: url(illustration-1-contact-form-desktop.svg),url(illustration-2-contact-form-desktop.svg),url(contact\ form-illustratoin-3-desktop.svg);
+    background-image: url(illustration-1-contact-form-desktop.svg), url(illustration-2-contact-form-desktop.svg), url(contact\ form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
     background-position: left bottom, left 210px bottom 90px, right bottom;
     padding-bottom: 250px;
@@ -838,27 +865,28 @@
   }
 
   #form-text-container > h2 {
-    font-family: Inter;
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-size: 30px;
     font-weight: 700;
     line-height: 52px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
-    padding-left: 0px; 
-    margin-top: 0px;
+    padding-left: 0;
+    margin-top: 0;
   }
 
   #form-container {
     height: 330px;
     width: 670px;
-    border-radius: 0px;
+    border-radius: 0;
     margin-right: 80px;
   }
 
-  .form-entries {  
+  .form-entries {
     width: 684px;
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .fill-area {
@@ -867,12 +895,13 @@
     border: 1px solid #d0d9d4;
   }
 
-  #fname, #lname {
+  #fname,
+  #lname {
     height: 48px;
     width: 330px;
     gap: 12px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     border-radius: 4px;
     margin-bottom: 12px;
   }
@@ -884,30 +913,29 @@
   #address {
     height: 48px;
     width: 684px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     border-radius: 4px;
     margin: 12px 100px 12px 0;
   }
+
   #message {
     height: 114px;
     width: 676px;
-    left: 0px;
+    left: 0;
     margin: 12px 0 12px 0;
   }
 
   #submit {
     margin-top: 12px;
-    margin-left: 0px;
+    margin-left: 0;
   }
 
-  #footer > hr {
-    margin-top: ;
-  }
+  /* Footer Section */
 
   #footer-icons {
     margin-top: 20px;
-    }
+  }
 
   #email {
     display: none;
