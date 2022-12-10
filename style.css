@@ -16,7 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    height: 92px;
+    height: 52px;
   }
 
   #logo-text {
@@ -66,6 +66,10 @@
     text-align: center;
   }
 
+  .landing-page #green {
+    color: #36b37e;
+  }
+
   h2 {
     color: #172b4d;
     font-family: 'Inter', sans-serif;
@@ -90,10 +94,6 @@
       width: 100%;
       margin-right: 0;
     }
-  }
-
-  .page #green {
-    color: #36b37e;
   }
 
   #text-container2 {
@@ -312,8 +312,8 @@
     margin: 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     flex-direction: row;
-    align-items: center;
     padding: 0;
     gap: 2px;
   }
@@ -768,7 +768,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
     padding: 0;
     gap: 2px;
   }
@@ -851,14 +851,13 @@
     background-position: left bottom, left 210px bottom 90px, right bottom;
     padding-bottom: 250px;
     display: flex;
-    flex-wrap: wrap;
     margin-top: 100px;
     height: fit-content;
     justify-content: space-between;
   }
 
   #form-text-container {
-    width: 484px;
+    width: 40%;
     height: 256px;
     margin-top: 80px;
     margin-left: 70px;
@@ -879,7 +878,7 @@
 
   #form-container {
     height: 330px;
-    width: 670px;
+    width: 45%;
     border-radius: 0;
     margin-right: 80px;
   }
@@ -898,7 +897,7 @@
   #fname,
   #lname {
     height: 48px;
-    width: 330px;
+    width: 42%;
     gap: 12px;
     left: 0;
     top: 0;
@@ -912,7 +911,7 @@
 
   #address {
     height: 48px;
-    width: 684px;
+    width: 88%;
     left: 0;
     top: 0;
     border-radius: 4px;
@@ -921,7 +920,7 @@
 
   #message {
     height: 114px;
-    width: 676px;
+    width: 87%;
     left: 0;
     margin: 12px 0 12px 0;
   }
