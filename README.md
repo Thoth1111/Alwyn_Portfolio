@@ -85,7 +85,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://thoth1111.github.io/Alwyn_Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,7 +124,7 @@ To run tests, run the following command:
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -138,7 +138,7 @@ You can deploy this project using:
 👤 **Alwyn Androvelle**
 
 - GitHub: [@thoth1111](https://github.com/thoth1111)
-- Twitter: [@ndrovelle](https://twitter.com/androvelle)
+- Twitter: [@androvelle](https://twitter.com/androvelle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 👤 **Author2**
