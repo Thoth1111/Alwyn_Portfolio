@@ -81,7 +81,7 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="https://thoth1111.github.io/Alwyn_Portfolio/"></a>
 
 > Add a link to your deployed project.
 
@@ -124,7 +124,7 @@ To run tests, run the following command:
 
 ### Deployment
 
-You can deploy this project using: https://thoth1111.github.io/Alwyn_Portfolio/
+You can deploy this project using: 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
