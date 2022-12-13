@@ -70,7 +70,7 @@
     color: #36b37e;
   }
 
-  h2 {
+  h1 {
     color: #172b4d;
     font-family: 'Inter', sans-serif;
     font-size: 40px;
@@ -221,7 +221,7 @@
   }
 
   .button-1 {
-    color: white;
+    color: black;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -539,7 +539,7 @@
     margin-bottom: 30px;
   }
 
-  #text-container > h2 {
+  #text-container > h1 {
     color: #172b4d;
     font-family: 'Inter', sans-serif;
     font-size: 48px;
@@ -679,7 +679,7 @@
   }
 
   .button-1 {
-    color: white;
+    color: black;
     display: flex;
     flex-direction: row;
     align-items: center;
