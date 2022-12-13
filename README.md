@@ -141,11 +141,11 @@ You can deploy this project using:
 - Twitter: [@androvelle](https://twitter.com/androvelle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
+👤 **Joshua Lyngdoh**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/joshualyngdoh)
+- Twitter: [@twitterhandle](https://twitter.com/joshualyngdoh08)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/joshualyngdoh)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
