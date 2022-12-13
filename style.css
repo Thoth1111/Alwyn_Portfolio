@@ -70,7 +70,7 @@
     color: #36b37e;
   }
 
-  h2 {
+  h1 {
     color: #172b4d;
     font-family: 'Inter', sans-serif;
     font-size: 40px;
@@ -539,7 +539,7 @@
     margin-bottom: 30px;
   }
 
-  #text-container > h2 {
+  #text-container > h1 {
     color: #172b4d;
     font-family: 'Inter', sans-serif;
     font-size: 48px;

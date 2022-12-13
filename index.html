@@ -28,7 +28,7 @@
   </section>
   <section class="landing-page">
     <div id ="text-container">
-      <h2>Hey there. I’m Alwyn.<br><span id="green">I’m a software developer</span></h2>
+      <h1>Hey there. I’m Alwyn.<br><span id="green">I’m a software developer</span></h1>
     </div>
     <div id="text-container2">
       <p id="text3"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
@@ -181,11 +181,11 @@
       <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
     </div>
     <div id="form-container">
-      <form class="form-entries">
-        <input type="text" class="fill-area" id="fname" name="fname" placeholder="Full Name">
-        <input type="text" class="fill-area" id="lname" name="lname" placeholder="Last Name">
-        <input type="email" class="fill-area" id="address" name="email" placeholder="Email Address">
-        <textarea rows="8" id="message" placeholder="Enter text here"></textarea>
+      <form action="https://formspree.io/f/mrgdnqrz" method="post" class="form-entries">
+        <input type="text" class="fill-area" id="fname" name="fname" maxlength="30" required placeholder="Full Name">
+        <input type="text" class="fill-area" id="lname" name="lname" required placeholder="Last Name">
+        <input type="email" class="fill-area" id="address" name="email" required placeholder="Email Address">
+        <textarea rows="8" id="message" maxlength="500" required placeholder="Enter text here"></textarea>
         <input class="button-1" id="submit" type="submit" value="Get in touch">
       </form>             
     </div>
