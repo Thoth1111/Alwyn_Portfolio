@@ -221,7 +221,7 @@
   }
 
   .button-1 {
-    color: white;
+    color: black;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -679,7 +679,7 @@
   }
 
   .button-1 {
-    color: white;
+    color: black;
     display: flex;
     flex-direction: row;
     align-items: center;
