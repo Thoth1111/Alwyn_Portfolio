@@ -39,6 +39,7 @@
 > Describe your project in 1 or 2 sentences.
 
 **Alwyn-Portfolio** is a project to build my own personal portfolio documenting information about me and my skills.
+https://www.loom.com/share/8bfa7161e05f4a339188c2f7464eda32
 
 ## 🛠 Built With <a name="built-with"></a>
 
