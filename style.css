@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: -80px;
+    left: -100%;
     width: 375px;
     height: 755px;
     transition: 0.5s;
@@ -265,7 +265,13 @@
 
   .about-me h2 {
     color: #172b4d;
-    margin: 0;
+    margin-top: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
   }
 
   #bio {
@@ -275,6 +281,7 @@
     line-height: 32px;
     letter-spacing: 0;
     text-align: center;
+    margin-top: 0px;
   }
 
   /* Skills Section */
@@ -396,6 +403,16 @@
   }
 
   /* Form Section */
+
+  #form-text-container > h2{
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
 
   .form {
     display: grid;
