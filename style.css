@@ -49,7 +49,7 @@
   }
 
   .landing-page {
-    background-image: url(background.png);
+    background-image: url(images/background.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -249,7 +249,7 @@
   /* About Me */
 
   .about-me {
-    background-image: url(about-me-1.svg), url(about-me-2.svg);
+    background-image: url(images/about-me-1.svg), url(images/about-me-2.svg);
     background-position: right top, left bottom;
     background-repeat: no-repeat, no-repeat;
     display: flex;
@@ -500,8 +500,8 @@
   }
 
   .landing-page {
-    background-image: url(Header-llustration-desktop.svg);
-    background-size: contain;
+    background-image: url(images/Header-llustration-desktop.svg);
+    background-size: cover;
     background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 65%;
@@ -708,7 +708,7 @@
 
   .about-me {
     margin: 88px 0 26px 0;
-    background-image: url(illustration-about-me-desktop.svg), url(illustration-about-me-2-desktop.svg);
+    background-image: url(images/illustration-about-me-desktop.svg), url(images/illustration-about-me-2-desktop.svg);
     background-position: right top, left bottom;
     background-repeat: no-repeat, no-repeat;
     padding-right: 80px;
@@ -846,7 +846,7 @@
   /* Form Section */
 
   .form {
-    background-image: url(illustration-1-contact-form-desktop.svg), url(illustration-2-contact-form-desktop.svg), url(contact\ form-illustratoin-3-desktop.svg);
+    background-image: url(images/illustration-1-contact-form-desktop.svg), url(images/illustration-2-contact-form-desktop.svg), url(images/contact\ form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
     background-position: left bottom, left 210px bottom 90px, right bottom;
     padding-bottom: 250px;
