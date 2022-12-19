@@ -8,8 +8,18 @@
 
   /* Landing Page */
 
-  header {
-    display: none;
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: -100%;
+    width: 375px;
+    height: 755px;
+    transition: 0.5s;
+  }
+
+  .navbar.active {
+    right: 0
   }
 
   .toolbar {
@@ -35,11 +45,14 @@
     text-align: center;
   }
 
-  #menu {
-    display: none;
+  .hamburger {
     margin: 0 12px 10px 0;
     width: 18px;
     height: 12px;
+  }
+
+  .hamburger.active {
+    display: none;
   }
 
   .landing-page {
@@ -474,6 +487,10 @@
     justify-content: center;
     align-items: center;
     margin-right: 100px;
+  }
+
+  .close-btn {
+    display: none;
   }
 
   .nav-icons {
