@@ -12,14 +12,14 @@
     display: flex;
     flex-direction: column;
     position: fixed;
-    right: -100%;
+    top: -80px;
     width: 375px;
     height: 755px;
     transition: 0.5s;
   }
 
-  .navbar.active {
-    right: 0
+  .navbar .active {
+    right: 0;
   }
 
   .toolbar {
@@ -480,7 +480,7 @@
     align-items: center;
   }
 
-  .navbar {
+  .nav-menu {
     display: flex;
     gap: 8px;
     height: 40px;
