@@ -36,16 +36,10 @@
   }
 
   #menu {
+    display: none;
     margin: 0 12px 10px 0;
     width: 18px;
     height: 12px;
-  }
-
-  #menu div {
-    border: 2px solid #28352f;
-    height: 0;
-    margin: 2px 0;
-    border-radius: 25%;
   }
 
   .landing-page {
@@ -473,7 +467,7 @@
     align-items: center;
   }
 
-  #navbar {
+  .navbar {
     display: flex;
     gap: 8px;
     height: 40px;
@@ -493,6 +487,13 @@
     text-align: center;
     gap: 10px;
     padding: 10px 12px;
+    transition: 0.8s ease;
+  }
+
+  .nav-icons:hover{
+    color: #36b37f;
+    background-color: #42526e;
+    border-radius: 8px;
   }
 
   .toolbar {
