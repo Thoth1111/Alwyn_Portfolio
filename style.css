@@ -12,14 +12,28 @@
     display: flex;
     flex-direction: column;
     position: fixed;
+    top: 0px;
     left: -100%;
-    width: 375px;
-    height: 755px;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
     transition: 0.5s;
+    padding-top: 70px;
   }
 
-  .navbar .active {
-    right: 0;
+  .navbar.active {
+    left: 0;
+  }
+
+  .nav-icons {
+    text-decoration: none;
+    color: #3a4a42;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
   }
 
   .toolbar {
@@ -49,6 +63,7 @@
     margin: 0 12px 10px 0;
     width: 18px;
     height: 12px;
+    cursor: pointer;
   }
 
   .hamburger.active {

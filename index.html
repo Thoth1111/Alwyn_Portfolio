@@ -7,27 +7,24 @@
   <title>Alwyn-Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
-  <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
   <header>
+    <div class="toolbar">
+      <p id="logo-text">Welcome</p>
+        <a class="hamburger" href="#">
+          <img src="images/Union.svg">
+        </a>
+      </div>
     <div class="navbar">
     <ul class="nav-menu" type="none">
-      <li><a class="nav-icons" href="#">Portfolio</a></li>
-      <li><a class="nav-icons" href="#">About</a></li>
-      <li><a class="nav-icons" href="#">Contact</a></li>
       <a class="close-btn" href="#"><img src="images/close-icon.svg" alt="close-icon"></a>
+      <li><a class="nav-icons" href="#portfolio">Portfolio</a></li>
+      <li><a class="nav-icons" href="#about">About</a></li>
+      <li><a class="nav-icons" href="#contact">Contact</a></li>
     </ul>
-  </div>
-  </header>
-  <section class="toolbar">
-    <p id="logo-text">Welcome</p>
-    <div>
-      <a href="#">
-        <img class="hamburger" src="images/Union.svg">
-      </a>
     </div>
-  </section>
+  </header>
   <section class="landing-page">
     <div id ="text-container">
       <h1>Hey there. I’m Alwyn.<br><span id="green">I’m a software developer</span></h1>
@@ -50,7 +47,7 @@
   </section>  
 
   <section class="mid-section">
-    <div class="intro">
+    <div class="intro" id="portfolio">
       <h2>My Recent Works</h2>
       <div id="indicator"></div>            
     </div>
@@ -135,7 +132,7 @@
       </div>
     </div>
 
-    <div class="about-me">
+    <div class="about-me" id="about">
       <h2>About me</h2>
       <p id="bio"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
         don’t hestiate to contact me.
@@ -178,7 +175,7 @@
       </div> 
     </div>
   </section>    
-  <section class="form">
+  <section class="form" id="contact">
     <div id="form-text-container">
       <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
     </div>
@@ -203,5 +200,6 @@
     </div>
     <p id="email">alwynsimiyu@gmail.com</p> 
   </section> 
+  <script type="text/javascript" src="myscript.js"></script>
 </body>
 </html>
