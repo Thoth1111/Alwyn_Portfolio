@@ -74,9 +74,9 @@ https://www.loom.com/share/8bfa7161e05f4a339188c2f7464eda32
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[About Me]**
+- **[Work Section & Skills]**
+- **[Contact Form]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,7 +96,8 @@ https://www.loom.com/share/8bfa7161e05f4a339188c2f7464eda32
 
 > Describe how a new developer could make use of your project.
 
-To get a local copy up and running, follow these steps.
+-Fork the repository.
+-Clone the repositry to your local environment.
 
 ### Prerequisites
 
@@ -148,6 +149,12 @@ You can deploy this project using:
 - Twitter: [@twitterhandle](https://twitter.com/joshualyngdoh08)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/joshualyngdoh)
 
+👤 **Hana Sabih**
+
+- GitHub: [@githubhandle](https://github.com/HanaSabih)
+- Twitter: [@twitterhandle](https://twitter.com/)
+- LinkedIn: [LinkedIn](https://linkedin.com/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -156,8 +163,8 @@ You can deploy this project using:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
+- [ ] **Pop-up window**
+- [ ] **Contact form validation**
 - [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -178,7 +185,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project; please feel free to let me know, and thank you. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,8 +194,6 @@ If you like this project...
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > Give credit to everyone who inspired your codebase.
-
-I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
