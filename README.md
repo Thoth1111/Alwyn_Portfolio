@@ -75,8 +75,8 @@ https://www.loom.com/share/8bfa7161e05f4a339188c2f7464eda32
 > Describe between 1-3 key features of the application.
 
 - **[About Me]**
+ mobile-menu
 - **[Work Section & Skills]**
-- **[Contact Form]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,6 +96,7 @@ https://www.loom.com/share/8bfa7161e05f4a339188c2f7464eda32
 
 > Describe how a new developer could make use of your project.
 
+mobile-menu
 -Fork the repository.
 -Clone the repositry to your local environment.
 
@@ -165,6 +166,7 @@ You can deploy this project using:
 
 - [ ] **Pop-up window**
 - [ ] **Contact form validation**
+
 - [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
