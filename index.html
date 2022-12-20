@@ -10,22 +10,22 @@
 </head>
 <body>
   <header>
-    <ul id="navbar" type="none">
-      <li><a class="nav-icons" href="#">Portfolio</a></li>
-      <li><a class="nav-icons" href="#">About</a></li>
-      <li><a class="nav-icons" href="#">Contact</a></li>
+    <div class="toolbar">
+      <p id="logo-text">Welcome</p>
+        <a class="hamburger" href="#">
+          <img src="images/Union.svg">
+        </a>
+      </div>
+    <div class="navbar">
+    <ul class="nav-menu" type="none">
+      <a class="close-btn" href="#"><img src="images/close-icon.svg" alt="close-icon"></a>
+      <li><a class="nav-icons" href="#portfolio">Portfolio</a></li>
+      <li><a class="nav-icons" href="#about">About</a></li>
+      <li><a class="nav-icons" href="#contact">Contact</a></li>
     </ul>
-  </header>
-  <section class="toolbar">
-    <p id="logo-text">Welcome</p>
-    <div class="buttons" id="menu">
-      <a href="#">
-        <div id="line1"></div>
-        <div id="line2"></div>
-        <div id="line3"></div>
-      </a>
+    <div id="bar"></div>
     </div>
-  </section>
+  </header>
   <section class="landing-page">
     <div id ="text-container">
       <h1>Hey there. I’m Alwyn.<br><span id="green">I’m a software developer</span></h1>
@@ -36,19 +36,19 @@
       </p>
     </div>
     <div class="social-media">
-      <input type="image"  src="twitter.png" alt="twitter-icon">
-      <input type="image"  src="Linkedin icon.png" alt="linkedin-icon">
-      <input type="image"  src="medium.png" alt="medium-icon">
-      <input type="image"  src="github.png" alt="github-icon">
-      <input type="image"  src="angellist.png" alt="angellist-icon">
+      <input type="image"  src="images/twitter.png" alt="twitter-icon">
+      <input type="image"  src="images/Linkedin icon.png" alt="linkedin-icon">
+      <input type="image"  src="images/medium.png" alt="medium-icon">
+      <input type="image"  src="images/github.png" alt="github-icon">
+      <input type="image"  src="images/angellist.png" alt="angellist-icon">
     </div>
     <div id="scroll">
-      <input type="image" src="scroll-button.png" alt="scroll-image">
+      <input type="image" src="images/scroll-button.png" alt="scroll-image">
     </div> 
   </section>  
 
   <section class="mid-section">
-    <div class="intro">
+    <div class="intro" id="portfolio">
       <h2>My Recent Works</h2>
       <div id="indicator"></div>            
     </div>
@@ -133,7 +133,7 @@
       </div>
     </div>
 
-    <div class="about-me">
+    <div class="about-me" id="about">
       <h2>About me</h2>
       <p id="bio"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
         don’t hestiate to contact me.
@@ -143,7 +143,7 @@
 
     <div class="skills">
       <div class="skill-entries">
-        <img class="icons" src="languages.svg" alt="languages-icon">
+        <img class="icons" src="images/languages.svg" alt="languages-icon">
         <p class="title">Languages</p>
         <ul type="none">
           <li id="skill1">JavaScript</li>
@@ -153,7 +153,7 @@
         </ul>
       </div> 
       <div class="skill-entries">
-        <img class="icons" src="frameworks.svg" alt="frameworks-icon">
+        <img class="icons" src="images/frameworks.svg" alt="frameworks-icon">
         <p class="title">Frameworks</p>
         <ul type="none">
           <li id="skill5">Bootstrap</li>
@@ -164,7 +164,7 @@
         </ul>
       </div>
       <div class="skill-entries">
-        <img class="icons" src="skills.svg" alt="skils-icon">
+        <img class="icons" src="images/skills.svg" alt="skils-icon">
         <p class="title">Skills</p>
         <ul type="none">
           <li id="skill10">Codekit</li>
@@ -176,7 +176,7 @@
       </div> 
     </div>
   </section>    
-  <section class="form">
+  <section class="form" id="contact">
     <div id="form-text-container">
       <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
     </div>
@@ -193,13 +193,14 @@
   <section id="footer">
     <hr>
     <div class="social-media" id="footer-icons">
-      <input type="image"  src="twitter.png" alt="twitter-icon">
-      <input type="image"  src="Linkedin icon.png" alt="linkedin-icon">
-      <input type="image"  src="medium.png" alt="medium-icon">
-      <input type="image"  src="github.png" alt="github-icon">
-      <input type="image"  src="angellist.png" alt="angellist-icon">
+      <input type="image"  src="images/twitter.png" alt="twitter-icon">
+      <input type="image"  src="images/Linkedin icon.png" alt="linkedin-icon">
+      <input type="image"  src="images/medium.png" alt="medium-icon">
+      <input type="image"  src="images/github.png" alt="github-icon">
+      <input type="image"  src="images/angellist.png" alt="angellist-icon">
     </div>
     <p id="email">alwynsimiyu@gmail.com</p> 
   </section> 
+  <script type="text/javascript" src="myscript.js"></script>
 </body>
 </html>

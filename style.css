@@ -8,8 +8,55 @@
 
   /* Landing Page */
 
-  header {
-    display: none;
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: -300%;
+    width: 100%;
+    height: 100%;
+    background-color: #e5e5e5;
+    transition: 0.5s;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0;
+    height: 90%;
+    color: #3a3432;
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+  }
+
+  .navbar.active {
+    left: 0;
+  }
+
+  .close-btn {
+    float: right;
+    padding: 32px 38px 0 0;
+    margin-left: 90%;
+  }
+
+  .nav-icons {
+    text-decoration: none;
+    color: #3a4a42;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  #bar {
+    height: 5px;
+    width: 30%;
+    background-color: black;
+    border-radius: 25px;
+    margin: 50px 35% 0 35%;
   }
 
   .toolbar {
@@ -35,21 +82,19 @@
     text-align: center;
   }
 
-  #menu {
+  .hamburger {
     margin: 0 12px 10px 0;
     width: 18px;
     height: 12px;
+    cursor: pointer;
   }
 
-  #menu div {
-    border: 2px solid #28352f;
-    height: 0;
-    margin: 2px 0;
-    border-radius: 25%;
+  .hamburger.active {
+    display: none;
   }
 
   .landing-page {
-    background-image: url(background.png);
+    background-image: url(images/background.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -249,7 +294,7 @@
   /* About Me */
 
   .about-me {
-    background-image: url(about-me-1.svg), url(about-me-2.svg);
+    background-image: url(images/about-me-1.svg), url(images/about-me-2.svg);
     background-position: right top, left bottom;
     background-repeat: no-repeat, no-repeat;
     display: flex;
@@ -258,7 +303,13 @@
 
   .about-me h2 {
     color: #172b4d;
-    margin: 0;
+    margin-top: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: center;
   }
 
   #bio {
@@ -268,6 +319,7 @@
     line-height: 32px;
     letter-spacing: 0;
     text-align: center;
+    margin-top: 0;
   }
 
   /* Skills Section */
@@ -390,6 +442,16 @@
 
   /* Form Section */
 
+  #form-text-container > h2 {
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
   .form {
     display: grid;
     grid-template-columns: auto;
@@ -473,13 +535,17 @@
     align-items: center;
   }
 
-  #navbar {
+  .nav-menu {
     display: flex;
     gap: 8px;
     height: 40px;
     justify-content: center;
     align-items: center;
     margin-right: 100px;
+  }
+
+  .close-btn {
+    display: none;
   }
 
   .nav-icons {
@@ -493,6 +559,13 @@
     text-align: center;
     gap: 10px;
     padding: 10px 12px;
+    transition: 0.8s ease;
+  }
+
+  .nav-icons:hover {
+    color: #36b37f;
+    background-color: #42526e;
+    border-radius: 8px;
   }
 
   .toolbar {
@@ -500,8 +573,8 @@
   }
 
   .landing-page {
-    background-image: url(Header-llustration-desktop.svg);
-    background-size: contain;
+    background-image: url(images/Header-llustration-desktop.svg);
+    background-size: cover;
     background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 65%;
@@ -708,7 +781,7 @@
 
   .about-me {
     margin: 88px 0 26px 0;
-    background-image: url(illustration-about-me-desktop.svg), url(illustration-about-me-2-desktop.svg);
+    background-image: url(images/illustration-about-me-desktop.svg), url(images/illustration-about-me-2-desktop.svg);
     background-position: right top, left bottom;
     background-repeat: no-repeat, no-repeat;
     padding-right: 80px;
@@ -846,7 +919,7 @@
   /* Form Section */
 
   .form {
-    background-image: url(illustration-1-contact-form-desktop.svg), url(illustration-2-contact-form-desktop.svg), url(contact\ form-illustratoin-3-desktop.svg);
+    background-image: url(images/illustration-1-contact-form-desktop.svg), url(images/illustration-2-contact-form-desktop.svg), url(images/contact\ form-illustratoin-3-desktop.svg);
     background-repeat: no-repeat;
     background-position: left bottom, left 210px bottom 90px, right bottom;
     padding-bottom: 250px;
