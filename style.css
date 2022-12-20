@@ -9,20 +9,35 @@
   /* Landing Page */
 
   .navbar {
-    display: flex;
-    flex-direction: column;
     position: fixed;
-    top: 0px;
+    top: 0;
     left: -100%;
     width: 100%;
-    height: 100vh;
-    background-color: #ffffff;
+    height: 100%;
+    background-color: #e5e5e5;
     transition: 0.5s;
-    padding-top: 70px;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0;
+    height: 90%;
+    color: #3a3432;
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
   }
 
   .navbar.active {
     left: 0;
+  }
+
+  .close-btn {
+    float: right;
+    padding: 32px 38px 0 0;
+    margin-left: 390px;
   }
 
   .nav-icons {
@@ -32,8 +47,16 @@
     font-size: 32px;
     font-weight: 600;
     line-height: 44px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
+  }
+
+  #bar {
+    height: 5px;
+    width: 30%;
+    background-color: black;
+    border-radius: 25px;
+    margin: 50px 35% 0 35%;
   }
 
   .toolbar {
@@ -285,7 +308,7 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
   }
 
@@ -296,7 +319,7 @@
     line-height: 32px;
     letter-spacing: 0;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   /* Skills Section */
@@ -419,13 +442,13 @@
 
   /* Form Section */
 
-  #form-text-container > h2{
+  #form-text-container > h2 {
     color: #172b4d;
     font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
   }
 
@@ -539,7 +562,7 @@
     transition: 0.8s ease;
   }
 
-  .nav-icons:hover{
+  .nav-icons:hover {
     color: #36b37f;
     background-color: #42526e;
     border-radius: 8px;
