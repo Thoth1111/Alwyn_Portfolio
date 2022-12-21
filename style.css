@@ -206,7 +206,7 @@
 
   /* Work-Section */
 
-  .work-section {
+  .projects {
     display: grid;
     grid-template-columns: 327px;
     grid-template-rows: 474px 474px 474px 474px 474px 474px;
@@ -265,7 +265,7 @@
     text-align: center;
   }
 
-  .button-1 {
+  .button-1, .button-2 {
     color: black;
     display: flex;
     flex-direction: row;
@@ -282,7 +282,7 @@
     transition: background-color 0.5s, width 0.5s, color 0.5s;
   }
 
-  .button-1:hover {
+  .button-1:hover, .button-2:hover {
     box-shadow: 0 8px 16px;
     border-color: rgba(255, 97, 99, 0.24);
     background-color: aqua;
@@ -688,7 +688,7 @@
     margin-bottom: 0;
   }
 
-  .work-section,
+  .projects,
   .skills {
     display: flex;
     flex-direction: row;
@@ -751,7 +751,7 @@
     text-align: center;
   }
 
-  .button-1 {
+  .button-1, .button-2 {
     color: black;
     display: flex;
     flex-direction: row;
@@ -768,7 +768,7 @@
     transition: background-color 0.5s, width 0.5s, color 0.5s;
   }
 
-  .button-1:hover {
+  .button-1:hover, .button-2:hover {
     box-shadow: 0 8px 16px;
     border-color: rgba(255, 97, 99, 0.24);
     background-color: aqua;
