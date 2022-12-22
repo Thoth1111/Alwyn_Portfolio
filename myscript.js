@@ -89,7 +89,6 @@ for (let i = 0; i < cards.length; i += 1) {
     <img class="forPopUp" id="mobile" src="images/Snapshoot-Portfolio.svg">
     <img class="forPopUp" id="Desk" src="images/Snapshoot-Desk-Portfolio.svg">
     <img class="notPopUp" src="${cards[i].image}" alt="">  
-  <div class="details">
     <h3 class="forPopUp">${cards[i].name}</h3>
     <h4 class="notPopUp">${cards[i].name}</h4>
     <ul class="list1" type="none">
@@ -100,8 +99,7 @@ for (let i = 0; i < cards.length; i += 1) {
       <button type="button" class="button-3 forPopUp">See Live</button>
       <button type="button" class="button-3 forPopUp">See Source</button>
     </div>
-    <button type="button" class="button-2 notPopUp ">See Project</button>
-  </div>  
+    <button type="button" class="button-2 notPopUp ">See Project</button>  
   `;
   projects.appendChild(container);
 }
