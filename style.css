@@ -763,7 +763,7 @@
     margin-bottom: 20px;
   }
 
-  .entries .forPopUp, .poparea #mobile, .poparea .notPopUp {
+  .details .forPopUp, .poparea #mobile, .poparea .notPopUp {
     display: none;
   }
 
@@ -782,30 +782,38 @@
   .poparea {
     position: fixed; 
     display: flex;
-    width: 95%;
-    height: auto;
+    align-items: center;
+    width: 52vw;
+    height: 830px;
+    border: 1px solid black;
     border-radius: 16px;
     padding: 16px;
     margin: 10px 15%;
     background-color: #fff;
   }
 
-  .close.forPopUp {
-    margin: 0px;
-    z-index: 10;
+  .poparea .forPopUp {
+    display: block;
   }
 
-  #desk {
+  .poparea #desk {
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 0px;
+    margin: 0px;
     display: block;
-    width: 872px;
-    height: 616px;
+    width: 800px;
+    height: 400px;
+    left: -50px;
   }
 
   .poparea h3 {
     font-family: 'Inter', sans-serif;
+    font-style: normal;
+    padding: 0;
     color: #172b4d;
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 44px;
     letter-spacing: 0em;
     text-align: left;

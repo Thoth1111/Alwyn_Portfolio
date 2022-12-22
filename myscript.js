@@ -85,10 +85,10 @@ for (let i = 0; i < cards.length; i += 1) {
   const container = document.createElement('div');
   container.classList.add('entries');
   container.innerHTML = `
-    <a class="close forPopUp" href="#"><img src="images/close-icon.svg" alt="close-icon"></a>
-    <img class="forPopUp" id="mobile" src="images/Snapshoot-Portfolio.svg">
-    <img class="forPopUp" id="Desk" src="images/Snapshoot-Desk-Portfolio.svg">
-    <img class="notPopUp" src="${cards[i].image}" alt="">  
+  <img class="notPopUp" src="${cards[i].image}" alt="">
+    <div class="details" 
+    <img class="forPopUp" src="${cards[i].image}" alt="">
+    <a href="#"><img src="images/close-icon.svg" class="forPopUp close" alt="close-icon"></a>
     <h3 class="forPopUp">${cards[i].name}</h3>
     <h4 class="notPopUp">${cards[i].name}</h4>
     <ul class="list1" type="none">
@@ -99,13 +99,11 @@ for (let i = 0; i < cards.length; i += 1) {
       <button type="button" class="button-3 forPopUp">See Live</button>
       <button type="button" class="button-3 forPopUp">See Source</button>
     </div>
-    <button type="button" class="button-2 notPopUp ">See Project</button>  
+    <button type="button" class="button-2 notPopUp ">See Project</button>
+    <div>  
   `;
   projects.appendChild(container);
 }
-
-// const popup = document.getElementById('popup');
-// const btn2 = document.querySelectorAll('.button-2');
 
 document.querySelectorAll('.button-2').forEach((n) => n.addEventListener('click', () => {
   if (n.parentElement.classList.contains('active') === false) {
@@ -121,11 +119,3 @@ document.querySelectorAll('.button-2').forEach((n) => n.addEventListener('click'
     main.appendChild(popup);
   }
 }));
-
-// document.querySelectorAll('.close').forEach((n) => n.addEventListener('click', () => {
-//   const popup = document.getElementById('popup');
-//   const poparea = document.getElementsByClassName('poparea');
-//   popup.removeChild(poparea);
-//   n.parentElement.classList.remove('active');
-//   popup.classList.remove('active');
-// }));
