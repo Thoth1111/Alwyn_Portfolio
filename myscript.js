@@ -48,17 +48,17 @@ const cards = [
   },
   {
     id: '3',
-    name: 'Finder Tracking App',
-    description: 'Finder Tracking App is a mobile based application that syncs with tiny tracking devices attached to a users items and can help track them in the event of a loss',
+    name: 'Tracker App',
+    description: 'Tracker App is a mobile based application that syncs with tiny tracking devices attached to a users items and can help track them in the event of a loss',
     image: 'https://picsum.photos/id/26/325/252/',
-    source: 'Finder Tracking App',
+    source: 'Tracking App',
     technologies: ['Ruby on rails', 'css', 'Javscript', 'html'],
     liveVersion: 'Finder Tracking App',
   },
   {
     id: '4',
-    name: 'Pocket Lib',
-    description: 'Pocket Lib is a web and mobile based e-book reader and library',
+    name: 'Pocket Library App',
+    description: 'Pocket Library app is a web and mobile based e-book reader and library',
     image: 'https://picsum.photos/id/24/325/252/',
     technologies: ['Ruby on rails', 'css', 'Javscript', 'html'],
     source: 'Pocket Lib',
@@ -88,7 +88,7 @@ for (let i = 0; i < cards.length; i += 1) {
   <img class="notPopUp" src="${cards[i].image}" alt="">
     <div class="details" 
     <a href="#"><img src="images/Disabled.svg" class="forPopUp close" alt="close-icon"></a>
-    <img class="forPopUp" src="${cards[i].image}" alt="">
+    <img class="forPopUp" id="pop-image" src="${cards[i].image}" alt="">
     <h3 class="forPopUp">${cards[i].name}</h3>
     <h4 class="notPopUp">${cards[i].name}</h4>
     <ul class="list1" type="none">
@@ -96,8 +96,8 @@ for (let i = 0; i < cards.length; i += 1) {
     </ul>
     <p class="forPopUp">${cards[i].description}</p>
     <div class=popup-btns>
-      <button type="button" class="button-3 forPopUp">See Live</button>
-      <button type="button" class="button-3 forPopUp">See Source</button>
+      <button type="button" class="button-3 forPopUp">See Live  <img class="pop-icons" src="images/see-live-icon.svg"></button>
+      <button type="button" class="button-3 forPopUp">See Source  <img class="pop-icons" src="images/Vector.svg"></button>
     </div>
     <button type="button" class="button-2 notPopUp ">See Project</button>
     <div>  
