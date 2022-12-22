@@ -226,19 +226,16 @@
   }
 
   .popup {
+    left: 0;
     position: fixed;
     display: flex;
     justify-content: center;
     align-content: center;
-    left: 0px;
     top: 0px;
     width: 100%;
     height: 100vh;
     background-color: #c1c7d0; 
     opacity: 0.98;
-    display: flex;
-    justify-content: center;
-    align-content: center;  
   }
 
   .poparea {
@@ -817,19 +814,16 @@
   }
 
   .popup {
+    left: 0;
     position: fixed;
     display: flex;
     justify-content: center;
     align-content: center;
-    left: 0px;
     top: 0px;
     width: 100%;
     height: 100vh;
     background-color: #c1c7d0; 
-    opacity: 0.98;
-    display: flex;
-    justify-content: center;
-    align-content: center;  
+    opacity: 0.98; 
   }
 
   .poparea {

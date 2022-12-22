@@ -25,53 +25,48 @@ const cards = [
     description: 'DeskLog is an issue tracking website for small companies to log complaints, track complaints via tickers and centralize communication with customers.',
     image: 'https://picsum.photos/id/0/325/252/',
     technologies: ['Ruby on rails', 'css', 'Javscript', 'html'],
-    source: 'DeskLog',
-    liveVersion: 'DeskLog',
+    source: '#',
+    liveVersion: '#',
   },
   {
-    id: '1',
     name: 'Citycation App',
     description: 'Citycation is a mobile application that connects city vacationers with city based accommodation and hospitality',
     image: 'https://picsum.photos/id/43/325/252/',
     technologies: ['Ruby on rails', 'css', 'Javscript', 'html'],
-    source: 'Citycation',
-    liveVersion: 'Citycation',
+    source: '#',
+    liveVersion: '#',
   },
   {
-    id: '2',
     name: 'Tukab Taxi App',
     description: 'Tukab Taxi is a mobile application for tuk tuk taxi services, akin to the world renown Uber.',
     image: 'https://picsum.photos/id/45/325/252/',
     technologies: ['Ruby on rails', 'css', 'Javscript', 'html'],
-    source: 'Tukab Taxi',
-    liveVersion: 'Tukab Taxi',
+    source: '#',
+    liveVersion: '#',
   },
   {
-    id: '3',
     name: 'Tracker App',
     description: 'Tracker App is a mobile based application that syncs with tiny tracking devices attached to a users items and can help track them in the event of a loss',
     image: 'https://picsum.photos/id/26/325/252/',
-    source: 'Tracking App',
     technologies: ['Ruby on rails', 'css', 'Javscript', 'html'],
-    liveVersion: 'Finder Tracking App',
-  },
+    source: '#',
+    liveVersion: '#',
+  }
   {
-    id: '4',
     name: 'Pocket Library App',
     description: 'Pocket Library app is a web and mobile based e-book reader and library',
     image: 'https://picsum.photos/id/24/325/252/',
     technologies: ['Ruby on rails', 'css', 'Javscript', 'html'],
-    source: 'Pocket Lib',
-    liveVersion: 'Pocket Lib',
+    source: '#',
+    liveVersion: '#',
   },
   {
-    id: '5',
     name: 'Lookr Search Engine',
     description: 'Lookr is a web and mobile based internet search engine',
     image: 'https://picsum.photos/id/20/325/252/',
     technologies: ['Ruby on rails', 'css', 'Javscript', 'html'],
-    source: 'Lookr',
-    liveVersion: 'Lookr',
+    source: '#',
+    liveVersion: '#',
   },
 ];
 
@@ -96,8 +91,12 @@ for (let i = 0; i < cards.length; i += 1) {
     </ul>
     <p class="forPopUp">${cards[i].description}</p>
     <div class=popup-btns>
+      <a href="${card[i].liveVersion}">
       <button type="button" class="button-3 forPopUp">See Live  <img class="pop-icons" src="images/see-live-icon.svg"></button>
+      </a>
+      <a href="${card[i].source}">
       <button type="button" class="button-3 forPopUp">See Source  <img class="pop-icons" src="images/Vector.svg"></button>
+      </a>
     </div>
     <button type="button" class="button-2 notPopUp ">See Project</button>
     <div>  
@@ -106,16 +105,21 @@ for (let i = 0; i < cards.length; i += 1) {
 }
 
 document.querySelectorAll('.button-2').forEach((n) => n.addEventListener('click', () => {
-  if (n.parentElement.classList.contains('active') === false) {
-    n.parentElement.classList.add('active');
-    const main = document.getElementById('main');
-    const popup = document.createElement('div');
-    popup.className = 'popup';
-    const poparea = document.createElement('div');
-    poparea.className = 'poparea';
-    const clone = n.parentElement.cloneNode(true);
-    poparea.appendChild(clone);
-    popup.appendChild(poparea);
-    main.appendChild(popup);
-  }
+  const main = document.getElementById('main');
+  const popup = document.createElement('div');
+  popup.className = 'popup';
+  const poparea = document.createElement('div');
+  poparea.className = 'poparea';
+  const clone = n.parentElement.cloneNode(true);
+  poparea.appendChild(clone);
+  popup.appendChild(poparea);
+  main.appendChild(popup); 
 }));
+
+function closePopArea () {
+  poparea.style.display = 'none';
+  popup.style.display = 'none';
+  popup.removeChild(poparea);
+}
+
+document.querySelector('.close').addEventListener('click', closePopArea);
