@@ -51,7 +51,7 @@ const cards = [
     technologies: ['Ruby on rails', 'css', 'Javscript', 'html'],
     source: '#',
     liveVersion: '#',
-  }
+  },
   {
     name: 'Pocket Library App',
     description: 'Pocket Library app is a web and mobile based e-book reader and library',
@@ -91,12 +91,8 @@ for (let i = 0; i < cards.length; i += 1) {
     </ul>
     <p class="forPopUp">${cards[i].description}</p>
     <div class=popup-btns>
-      <a href="${card[i].liveVersion}">
       <button type="button" class="button-3 forPopUp">See Live  <img class="pop-icons" src="images/see-live-icon.svg"></button>
-      </a>
-      <a href="${card[i].source}">
       <button type="button" class="button-3 forPopUp">See Source  <img class="pop-icons" src="images/Vector.svg"></button>
-      </a>
     </div>
     <button type="button" class="button-2 notPopUp ">See Project</button>
     <div>  
