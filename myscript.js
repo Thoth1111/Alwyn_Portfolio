@@ -87,8 +87,8 @@ for (let i = 0; i < cards.length; i += 1) {
   container.innerHTML = `
   <img class="notPopUp" src="${cards[i].image}" alt="">
     <div class="details" 
+    <a href="#"><img src="images/Disabled.svg" class="forPopUp close" alt="close-icon"></a>
     <img class="forPopUp" src="${cards[i].image}" alt="">
-    <a href="#"><img src="images/close-icon.svg" class="forPopUp close" alt="close-icon"></a>
     <h3 class="forPopUp">${cards[i].name}</h3>
     <h4 class="notPopUp">${cards[i].name}</h4>
     <ul class="list1" type="none">
