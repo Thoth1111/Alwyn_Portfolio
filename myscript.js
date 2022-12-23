@@ -117,3 +117,20 @@ document.querySelectorAll('.button-2').forEach((n) => n.addEventListener('click'
     main.removeChild(popup);
   });
 }));
+
+
+const email = document.getElementById('address');
+const form = document.getElementById('form-entries');
+const feedback = document.querySelector('.submission-feedback')
+
+form.addEventListener('change', (e) => {
+  e.preventDefault();
+  email.classList.remove('error');
+  feedback.classList.remove('error');
+  feedback.style.display = 'none';
+});
+
+form.addEventListener('submit', (e) => {
+e.preventDefault();
+
+})

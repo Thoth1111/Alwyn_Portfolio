@@ -226,15 +226,6 @@
     display: none;
   }
 
-  /* #main {
-    display: none;
-  }
-
-  #main.voila {
-    position: fixed;
-    display: block;
-  } */
-
   .popup {
     display: flex;
     justify-content: center;
@@ -576,6 +567,25 @@
     display: none;
   }
 
+  /* .error {
+    display: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    height: 35px;
+    padding: 6px 8px 8px 6px;
+    box-sizing: border-box;
+    margin-bottom: -8px;
+    border-radius: 4px;
+    color: darkred;
+    border: 2px solid darkred;
+    background-color: darkgrey;    
+  } */
+
+  /* .error.active {
+    display: block;
+  } */
+
   .form-entries {
     display: flex;
     flex-direction: column;
@@ -592,6 +602,24 @@
     line-height: 24px;
     letter-spacing: 0;
   }
+
+  .submission-feedback {
+    display: none;
+    color: #36b37f;
+    border-color: #36b37f;  
+    width: 250px; 
+  }
+
+  .submission-feedback.error {
+    color: darkred;
+    border-color: darkred;
+    background-color: darkgray;
+  }
+
+  .fillarea.error {
+    border: 2px solid darkred;
+    background-color: darkgray;
+    }
 
   textarea {
     font-family: 'Inter', sans-serif;
@@ -1184,6 +1212,30 @@
     margin-right: 0;
   }
 
+  /* .error {
+    /* display: none; */
+    /* font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    height: 35px;
+    padding: 6px 8px 8px 6px;
+    box-sizing: border-box;
+    margin-top: 0;
+    border-radius: 4px;
+    color: darkred;
+    border: 2px solid darkred;
+    background-color: darkgrey; 
+  } */
+
+  /* .error.active {
+    display: block;
+  } */
+
+  /* .input-error {
+    background-color: darkgray;
+    border: 2px solid darkred;
+  } */
+
   .fill-area {
     box-sizing: border-box;
     border-radius: 4px;
@@ -1212,6 +1264,23 @@
     top: 0;
     border-radius: 4px;
     margin: 12px 100px 12px 0;
+  }
+
+  .submission-feedback {
+    display: none;
+    color: #36b37f;
+    border-color: #36b37f;   
+  }
+
+  .submission-feedback.error {
+    color: darkred;
+    border-color: darkred;
+    background-color: darkgray;
+  }
+
+  .fillarea.error {
+  border: 2px solid darkred;
+  background-color: darkgray;
   }
 
   #message {

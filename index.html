@@ -100,13 +100,17 @@
       <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
     </div>
     <div id="form-container">
-      <form action="https://formspree.io/f/mrgdnqrz" method="post" class="form-entries">
+      <form action="https://formspree.io/f/mrgdnqrz" method="post" id="form-entries" class="form-entries" novalidate>
         <input type="text" class="fill-area" id="fname" name="fname" maxlength="30" required placeholder="Full Name">
-        <input type="text" class="fill-area" id="lname" name="lname" required placeholder="Last Name">
-        <input type="email" class="fill-area" id="address" name="email" required placeholder="Email Address">
+        <input type="text" class="fill-area" id="lname" name="lname" maxlength="30" required placeholder="Last Name">
+        <input type="email" class="fill-area" id="address" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email Address">
         <textarea rows="8" id="message" maxlength="500" required placeholder="Enter text here"></textarea>
-        <input class="button-1" id="submit" type="submit" value="Get in touch">
-      </form>             
+        <label for="success/error message" class="submission-feedback">
+          Thank you. your Details have been submitted.
+        </label>
+        <input class="button-1" id="post" type="submit" value="Get in touch">
+      </form>   
+      <!-- <div class="error"></div>           -->
     </div>
   </section>
   <section id="footer">
