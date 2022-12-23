@@ -220,8 +220,9 @@
     border: 1px solid #d0d9d4;
     border-radius: 8px;
   }
-  
-  .details .forPopUp, .poparea .notPopUp {
+
+  .details .forPopUp,
+  .poparea .notPopUp {
     display: none;
   }
 
@@ -238,17 +239,17 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    position: fixed;    
-    top: 0px;
+    position: fixed;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: #c1c7d0; 
-    opacity: 0.99; 
+    background-color: #c1c7d0;
+    opacity: 0.99;
   }
 
   .poparea {
-    position: fixed; 
+    position: fixed;
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -263,13 +264,13 @@
     display: block;
   }
 
-  #close {
+  .close {
     cursor: pointer;
-    height:20px;
+    height: 20px;
     width: 20px;
     padding: 0;
     margin-top: -5px;
-    margin-left: 94%;  
+    margin-left: 94%;
   }
 
   .poparea #pop-image {
@@ -292,7 +293,7 @@
     font-size: 30px;
     font-weight: 700;
     line-height: 44px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
   }
 
@@ -313,7 +314,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
   }
 
@@ -372,7 +373,9 @@
     text-align: center;
   }
 
-  .button-1, .button-2, .button-3 {
+  .button-1,
+  .button-2,
+  .button-3 {
     color: #fff;
     display: flex;
     flex-direction: row;
@@ -389,7 +392,9 @@
     transition: background-color 0.5s, width 0.5s, color 0.5s;
   }
 
-  .button-1:hover, .button-2:hover, .button-3:hover {
+  .button-1:hover,
+  .button-2:hover,
+  .button-3:hover {
     box-shadow: 0 8px 16px;
     border-color: rgba(255, 97, 99, 0.24);
     background-color: aqua;
@@ -813,7 +818,8 @@
     margin-bottom: 20px;
   }
 
-  .details .forPopUp, .poparea .notPopUp {
+  .details .forPopUp,
+  .poparea .notPopUp {
     display: none;
   }
 
@@ -831,17 +837,17 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    position: fixed;    
-    top: 0px;
+    position: fixed;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: #c1c7d0; 
-    opacity: 0.99; 
+    background-color: #c1c7d0;
+    opacity: 0.99;
   }
 
   .poparea {
-    position: fixed; 
+    position: fixed;
     display: flex;
     width: 550px;
     height: 550px;
@@ -855,13 +861,13 @@
     display: block;
   }
 
-  #close {
+  .close {
     cursor: pointer;
-    height:20px;
+    height: 20px;
     width: 20px;
     padding: 0;
     margin-top: -5px;
-    margin-left: 510px;  
+    margin-left: 510px;
   }
 
   .poparea #pop-image {
@@ -884,7 +890,7 @@
     font-size: 30px;
     font-weight: 700;
     line-height: 44px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
   }
 
@@ -895,7 +901,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
   }
 
@@ -914,7 +920,6 @@
     justify-content: flex-end;
     bottom: 210px;
     left: 240px;
-    display: flex;
     width: 300px;
     margin: 0;
     order: 4;
@@ -965,7 +970,9 @@
     text-align: center;
   }
 
-  .button-1, .button-2, .button-3 {
+  .button-1,
+  .button-2,
+  .button-3 {
     color: #fff;
     display: flex;
     flex-direction: row;
@@ -982,7 +989,9 @@
     transition: background-color 0.5s, width 0.5s, color 0.5s;
   }
 
-  .button-1:hover, .button-2:hover, .button-3:hover {
+  .button-1:hover,
+  .button-2:hover,
+  .button-3:hover {
     box-shadow: 0 8px 16px;
     border-color: rgba(255, 97, 99, 0.24);
     background-color: aqua;

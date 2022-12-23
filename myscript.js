@@ -82,7 +82,7 @@ for (let i = 0; i < cards.length; i += 1) {
   container.innerHTML = `
   <img class="notPopUp" src="${cards[i].image}" alt="">
     <div class="details" 
-    <a href="#"><img src="images/Disabled.svg" class="forPopUp" id="close" alt="close-icon"></a>
+    <a href="#"><img src="images/Disabled.svg" class="forPopUp close" alt="close-icon"></a>
     <img class="forPopUp" id="pop-image" src="${cards[i].image}" alt="">
     <h3 class="forPopUp">${cards[i].name}</h3>
     <h4 class="notPopUp">${cards[i].name}</h4>
@@ -110,10 +110,10 @@ document.querySelectorAll('.button-2').forEach((n) => n.addEventListener('click'
   poparea.appendChild(clone);
   popup.appendChild(poparea);
   main.appendChild(popup);
-}));
 
-document.getElementById('close').addEventListener('click', () => {
-  const main = document.getElementById('main');
-  popup.style.display = 'none';
-  main.removeChild(popup);  
-});
+  const close = document.querySelector('.close');
+  close.addEventListener('click', () => {
+    popup.style.display = 'none';
+    main.removeChild(popup);
+  });
+}));
