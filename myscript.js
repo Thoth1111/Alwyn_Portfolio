@@ -142,9 +142,25 @@ form.addEventListener('submit', (e) => {
   }
 });
 
-if (localStorage.details != null) {
-  data = JSON.parse(localStorage.details);
-} else {
-  data = [];
+const inputs = document.querySelectorAll('.fill-area');
+const dataInput = {
+  fname: '',
+  lname: '',
+  email: '',
+  message: '',
+};
+inputs.forEach((input) => {
+  input.addEventListener('input', () => {
+    dataInput[input.fname] = input.value;
+    dataInput[input.lname] = input.value;
+    dataInput[input.email] = input.value;
+    dataInput[input.message] = input.value;
+    localStorage.setItem('grouped', JSON.stringify(dataInput));
+  })
+})
+const archived = JSON.parse(localStorage.getItem('grouped'))
+if (archived) {
+  inputs.forEach((element) => {
+    element.value = archived[element.name];
+  })
 }
-
