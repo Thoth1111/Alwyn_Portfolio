@@ -567,25 +567,6 @@
     display: none;
   }
 
-  /* .error {
-    display: none;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    height: 35px;
-    padding: 6px 8px 8px 6px;
-    box-sizing: border-box;
-    margin-bottom: -8px;
-    border-radius: 4px;
-    color: darkred;
-    border: 2px solid darkred;
-    background-color: darkgrey;    
-  } */
-
-  /* .error.active {
-    display: block;
-  } */
-
   .form-entries {
     display: flex;
     flex-direction: column;
@@ -605,21 +586,28 @@
 
   .submission-feedback {
     display: none;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    padding: 4px;
+    font-weight: 700;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 40px;
     color: #36b37f;
-    border-color: #36b37f;  
-    width: 250px; 
+    border: 2px solid #36b37f;
   }
 
   .submission-feedback.error {
     color: darkred;
-    border-color: darkred;
+    border: 2px solid darkred;
     background-color: darkgray;
   }
 
-  .fillarea.error {
+  input.error {
     border: 2px solid darkred;
     background-color: darkgray;
-    }
+  }
 
   textarea {
     font-family: 'Inter', sans-serif;
@@ -850,16 +838,6 @@
   .poparea .notPopUp {
     display: none;
   }
-
-  /* #main {
-    display: none;
-  }
-
-  #main.voila {
-    position: fixed;
-    display: block;
-    z-index: 10;
-  } */
 
   .popup {
     display: flex;
@@ -1212,30 +1190,6 @@
     margin-right: 0;
   }
 
-  /* .error {
-    /* display: none; */
-    /* font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    height: 35px;
-    padding: 6px 8px 8px 6px;
-    box-sizing: border-box;
-    margin-top: 0;
-    border-radius: 4px;
-    color: darkred;
-    border: 2px solid darkred;
-    background-color: darkgrey; 
-  } */
-
-  /* .error.active {
-    display: block;
-  } */
-
-  /* .input-error {
-    background-color: darkgray;
-    border: 2px solid darkred;
-  } */
-
   .fill-area {
     box-sizing: border-box;
     border-radius: 4px;
@@ -1268,19 +1222,30 @@
 
   .submission-feedback {
     display: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    padding: 4px;
+    font-weight: 700;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 13px;
+    left: 130px;
+    width: 400px;
+    border-radius: 4px;
+    text-align: center;
     color: #36b37f;
-    border-color: #36b37f;   
+    border: 2px solid #36b37f;
   }
 
   .submission-feedback.error {
     color: darkred;
-    border-color: darkred;
+    border: 2px solid darkred;
     background-color: darkgray;
   }
 
   .fillarea.error {
-  border: 2px solid darkred;
-  background-color: darkgray;
+    border: 2px solid darkred;
+    background-color: darkgray;
   }
 
   #message {

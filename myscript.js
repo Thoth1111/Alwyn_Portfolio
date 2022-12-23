@@ -118,10 +118,9 @@ document.querySelectorAll('.button-2').forEach((n) => n.addEventListener('click'
   });
 }));
 
-
 const email = document.getElementById('address');
 const form = document.getElementById('form-entries');
-const feedback = document.querySelector('.submission-feedback')
+const feedback = document.querySelector('.submission-feedback');
 
 form.addEventListener('change', (e) => {
   e.preventDefault();
@@ -131,16 +130,14 @@ form.addEventListener('change', (e) => {
 });
 
 form.addEventListener('submit', (e) => {
-e.preventDefault();
-  if (email.value !== email.value.toLowerCase()){
-  email.classList.add('error')
-  feedback.innerHTML = 'Invalid input. Please type your email in lowercase';
-  feedback.style.display = 'block';
-feedback.classList.add('error');
-} else {
-  feedback.style.display = 'block';
-  form.submit();
-}
-
-
-})
+  e.preventDefault();
+  if (email.value !== email.value.toLowerCase()) {
+    email.classList.add('error');
+    feedback.innerHTML = 'Invalid input. Please type your email in lowercase';
+    feedback.style.display = 'block';
+    feedback.classList.add('error');
+  } else {
+    feedback.style.display = 'block';
+    form.submit();
+  }
+});
