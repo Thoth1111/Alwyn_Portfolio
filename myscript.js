@@ -156,11 +156,11 @@ inputs.forEach((input) => {
     dataInput[input.email] = input.value;
     dataInput[input.message] = input.value;
     localStorage.setItem('grouped', JSON.stringify(dataInput));
-  })
-})
-const archived = JSON.parse(localStorage.getItem('grouped'))
+  });
+});
+const archived = JSON.parse(localStorage.getItem('grouped'));
 if (archived) {
   inputs.forEach((element) => {
     element.value = archived[element.name];
-  })
+  });
 }
