@@ -141,3 +141,10 @@ form.addEventListener('submit', (e) => {
     form.submit();
   }
 });
+
+if (localStorage.details != null) {
+  data = JSON.parse(localStorage.details);
+} else {
+  data = [];
+}
+
