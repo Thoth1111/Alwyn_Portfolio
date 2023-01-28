@@ -264,6 +264,10 @@
     margin-left: 94%;
   }
 
+  .scr-img {
+    height: 252px;
+  }
+
   .poparea #pop-image {
     margin-top: 6px;
     margin-bottom: 0;
@@ -889,7 +893,6 @@
   }
 
   .scr-img {
-    /* width: 325px; */
     height: 252px;
   }
 
