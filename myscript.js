@@ -21,12 +21,12 @@ const projects = document.querySelector('.projects');
 const cards = [
   {
     id: '0',
-    name: 'DeskLog',
-    description: 'DeskLog is an issue tracking website for small companies to log complaints, track complaints via tickers and centralize communication with customers.',
-    image: 'https://picsum.photos/id/0/325/252/',
-    technologies: ['Ruby on rails', 'css', 'Javscript', 'html'],
-    source: '#',
-    liveVersion: '#',
+    name: 'FPS Festival Site',
+    description: 'FPS Festival is a webpage I designed for a local gaming event.',
+    image: 'images/FPS-Screenshot.png',
+    technologies: ['css', 'Javscript', 'html'],
+    source: 'https://github.com/Thoth1111/FPS-Festival',
+    liveVersion: 'https://thoth1111.github.io/FPS-Festival/index.html',
   },
   {
     name: 'Citycation App',
@@ -80,7 +80,7 @@ for (let i = 0; i < cards.length; i += 1) {
   const container = document.createElement('div');
   container.classList.add('entries');
   container.innerHTML = `
-  <img class="notPopUp" src="${cards[i].image}" alt="">
+  <img class="notPopUp scr-img" src="${cards[i].image}" alt="">
     <div class="details" 
     <a href="#"><img src="images/Disabled.svg" class="forPopUp close" alt="close-icon"></a>
     <img class="forPopUp" id="pop-image" src="${cards[i].image}" alt="">
@@ -91,11 +91,15 @@ for (let i = 0; i < cards.length; i += 1) {
     </ul>
     <p class="forPopUp">${cards[i].description}</p>
     <div class=popup-btns>
+      <a target="_blank" href="${cards[i].liveVersion}">
       <button type="button" class="button-3 forPopUp">See Live  <img class="pop-icons" src="images/see-live-icon.svg"></button>
+      </a>
+      <a target="_blank" href="${cards[i].source}">
       <button type="button" class="button-3 forPopUp">See Source  <img class="pop-icons" src="images/Vector.svg"></button>
+      </a>
     </div>
-    <button type="button" class="button-2 notPopUp ">See Project</button>
-    <div>  
+    <button type="button" class="button-2 notPopUp">See Project</button>
+  <div>  
   `;
   projects.appendChild(container);
 }

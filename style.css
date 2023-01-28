@@ -264,6 +264,10 @@
     margin-left: 94%;
   }
 
+  .scr-img {
+    height: 252px;
+  }
+
   .poparea #pop-image {
     margin-top: 6px;
     margin-bottom: 0;
@@ -318,6 +322,10 @@
     width: 80%;
     margin: 0;
     order: 4;
+  }
+
+  .popup-btns > a {
+    text-decoration: none;
   }
 
   .entries img {
@@ -879,9 +887,13 @@
   .poparea #pop-image {
     margin-top: 6px;
     margin-bottom: 0;
-    margin-left: 10px;
-    width: 510px;
+    margin-left: 50px;
+    width: 380px;
     height: 280px;
+  }
+
+  .scr-img {
+    height: 252px;
   }
 
   .poparea h3 {
@@ -924,11 +936,16 @@
     position: relative;
     display: flex;
     justify-content: flex-end;
-    bottom: 210px;
+    gap: 4px;
+    bottom: 180px;
     left: 240px;
     width: 300px;
     margin: 0;
     order: 4;
+  }
+
+  .popup-btns > a {
+    text-decoration: none;
   }
 
   .entries img {
