@@ -264,6 +264,11 @@
     margin-left: 94%;
   }
 
+  #pop-image {
+    width: 325px;
+    height: 252px;
+  }
+
   .poparea #pop-image {
     margin-top: 6px;
     margin-bottom: 0;
@@ -318,6 +323,10 @@
     width: 80%;
     margin: 0;
     order: 4;
+  }
+
+  .popup-btns > a {
+    text-decoration: none;
   }
 
   .entries img {
@@ -876,6 +885,11 @@
     margin-left: 510px;
   }
 
+  #pop-image {
+    width: 325px;
+    height: 252px;
+  }
+
   .poparea #pop-image {
     margin-top: 6px;
     margin-bottom: 0;
@@ -929,6 +943,10 @@
     width: 300px;
     margin: 0;
     order: 4;
+  }
+
+  .popup-btns > a {
+    text-decoration: none;
   }
 
   .entries img {
