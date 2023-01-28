@@ -80,7 +80,7 @@ for (let i = 0; i < cards.length; i += 1) {
   const container = document.createElement('div');
   container.classList.add('entries');
   container.innerHTML = `
-  <img class="notPopUp" src="${cards[i].image}" alt="">
+  <img class="notPopUp scr-img" src="${cards[i].image}" alt="">
     <div class="details" 
     <a href="#"><img src="images/Disabled.svg" class="forPopUp close" alt="close-icon"></a>
     <img class="forPopUp" id="pop-image" src="${cards[i].image}" alt="">
@@ -99,7 +99,7 @@ for (let i = 0; i < cards.length; i += 1) {
       </a>
     </div>
     <button type="button" class="button-2 notPopUp">See Project</button>
-    <div>  
+  <div>  
   `;
   projects.appendChild(container);
 }
