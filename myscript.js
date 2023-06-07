@@ -29,12 +29,12 @@ const cards = [
     liveVersion: 'https://thoth1111.github.io/FPS-Festival/index.html',
   },
   {
-    name: 'Citycation App',
-    description: 'Citycation is a mobile application that connects city vacationers with city based accommodation and hospitality',
-    image: 'https://picsum.photos/id/43/325/252/',
-    technologies: ['Ruby on rails', 'css', 'Javscript', 'html'],
-    source: '#',
-    liveVersion: '#',
+    name: 'FundSense budget App',
+    description: 'FundSense is a mobile application that allows users to manage categories and transactions in a budget.',
+    image: 'images/fundsense.png',
+    technologies: ['Ruby on rails', 'css', 'Rspec'],
+    source: 'https://github.com/Thoth1111/Fundsense-budget-App',
+    liveVersion: 'https://fundsense-budget-app.onrender.com',
   },
   {
     name: 'Tukab Taxi App',
